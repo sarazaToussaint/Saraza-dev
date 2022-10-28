@@ -1,10 +1,11 @@
 import './App.css';
+import NavaBar from './NavaBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Saraza.dev</h1>
-    </div>
+    <>
+      <NavaBar />
+    </>
   );
 }
 
