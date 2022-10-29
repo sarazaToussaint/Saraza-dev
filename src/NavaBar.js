@@ -1,18 +1,22 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function NavaBar() {
   return (
     <nav className="nav">
-      <a href="/" className="site-title">Saraza.dev</a>
+      <NavLink to="/" className="site-title">Saraza.dev</NavLink>
       <ul>
         <li className="active">
-          <a href="/about">About</a>
+          <NavLink to="/home">Home</NavLink>
         </li>
         <li>
-          <a href="/project">Projects</a>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <NavLink to="/project">Projects</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </nav>
