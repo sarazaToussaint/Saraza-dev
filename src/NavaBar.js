@@ -1,22 +1,22 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink as Link } from 'react-router-dom';
 
 export default function NavaBar() {
   return (
     <nav className="nav">
-      <NavLink to="/" className="site-title">Saraza.dev</NavLink>
+      <h1 className="site-title">Saraza.dev</h1>
       <ul>
         <li className="active">
-          <NavLink to="/home">Home</NavLink>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <NavLink to="/project">Projects</NavLink>
+          <Link to="/project">Projects</Link>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
