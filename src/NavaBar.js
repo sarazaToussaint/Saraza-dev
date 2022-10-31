@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom';
 export default function NavaBar() {
   return (
     <nav className="nav">
-      <h1 className="site-title">Saraza.dev</h1>
+      <h1 className="site-title">SARAZA.dev</h1>
       <ul>
         <li className="active">
           <Link to="/">Home</Link>
