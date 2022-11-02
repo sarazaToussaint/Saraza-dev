@@ -13,6 +13,9 @@ export default function NavaBar() {
           <Link to="/about">About</Link>
         </li>
         <li>
+          <Link to="/skills">Skills</Link>
+        </li>
+        <li>
           <Link to="/project">Projects</Link>
         </li>
         <li>
