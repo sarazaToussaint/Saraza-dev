@@ -4,22 +4,25 @@ import { NavLink as Link } from 'react-router-dom';
 export default function NavaBar() {
   return (
     <nav className="nav">
-      <h1 className="site-title">SARAZA.dev</h1>
+      <h1 className="site-title">
+        Saraza
+        <span>.dev</span>
+      </h1>
       <ul>
         <li className="active">
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/About">About</Link>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="/Skills">Skills</Link>
         </li>
         <li>
-          <Link to="/project">Projects</Link>
+          <Link to="/Project">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
     </nav>
