@@ -173,3 +173,10 @@ body {
     transform: translateX(0);
   }
 }
+
+.skills,
+.about,
+.project,
+.contact {
+  color: #fff;
+}
