@@ -93,6 +93,7 @@ body {
 .container {
   color: #fff;
   margin: auto;
+  animation: slideInFromLeft 1s ease-in;
 }
 
 .container h1 span {
@@ -125,8 +126,50 @@ body {
   left: 0;
   right: 0;
   background: #fff;
-  transform: skewY(-3deg);
-  -webkit-transform: skewY(-3deg);
-  -webkit-transform: skewY(-3deg);
-  -webkit-transform: skewY(-3deg);
+  transform: skewY(-6deg);
+  -webkit-transform: skewY(-6deg);
+  -webkit-transform: skewY(-6deg);
+  -webkit-transform: skewY(-6deg);
+}
+
+/* Animation */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
