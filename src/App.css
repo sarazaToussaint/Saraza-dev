@@ -57,13 +57,33 @@ body {
   font-weight: 500;
 }
 
-/* .nav li.active {
-  background-color: rgb(50, 37, 37);
-} */
+.container button {
+  margin: 0 auto;
+  display: block;
+  border-radius: 30px;
+  padding: 5px 20px;
+  background-color: #0693e3;
+  color: #fff;
+  font-size: 17px;
+}
 
-.container .buton button {
-  background-color: red;
-  align-items: center;
+.container button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.icon-container a {
+  font-size: 3em;
+  font-family: italic;
+  color: #fff;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.icon-container a:hover {
+  color: #0693e3;
 }
 
 .nav li a:hover {
@@ -86,4 +106,27 @@ body {
   text-align: center;
   margin: auto;
   max-width: 65%;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 5px;
+}
+
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  height: 65px;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
 }
