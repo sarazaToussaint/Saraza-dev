@@ -2,11 +2,9 @@ import React from 'react';
 
 const Contact = () => (
   <div>
-    <h1 className="home-title">
-      TOUSSAINT
-      <span> SARAZA</span>
-    </h1>
     <p>
+      Hello,
+      I&apos;m Toussaint Saraza
       I am a self-motivated and goal orientated individual with a degree
       in Computer Science from Kigali Independent University.
       I have worked on a variety of fullstack projects when studied at Microverse and
