@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contact = () => (
   <div>
-    <p>
-      Hey there
-    </p>
+    <h1>
+      Contact me
+    </h1>
   </div>
 );
 
