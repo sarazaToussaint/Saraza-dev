@@ -175,8 +175,31 @@ body {
 }
 
 .skills,
-.about,
 .project,
 .contact {
   color: #fff;
+}
+
+.dev-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.bio {
+  color: #fff;
+  margin-top: -1.5rem;
+  animation: slideInFromRight 1s ease-in;
+}
+
+.about-container {
+  display: flex;
+  margin: auto;
+  margin-top: 5rem;
+  gap: 50px;
+  max-width: 65%;
+}
+
+.photo {
+  animation: slideInFromLeft 1s ease-in;
 }
