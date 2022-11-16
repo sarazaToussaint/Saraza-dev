@@ -1,4 +1,9 @@
 {
-  "data": [
-  ]
+  "data": {
+    "developer": "Toussaint Saraza",
+    "devPhoto": "./assets/devImage.jpg",
+    "occupation": "Software Developer"
+
+  }
+
 }
