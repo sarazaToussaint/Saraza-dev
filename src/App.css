@@ -73,9 +73,11 @@ body {
   background-color: #0693e3;
   color: #fff;
   font-size: 17px;
+  margin-left: 10px;
 }
 
-.container button:hover {
+.container button:hover,
+.about-container button:hover {
   background-color: #fff;
   color: #000;
 }
@@ -213,7 +215,7 @@ body {
   display: flex;
   margin: auto;
   margin-top: 5rem;
-  gap: 50px;
+  gap: 40px;
   max-width: 65%;
 }
 
