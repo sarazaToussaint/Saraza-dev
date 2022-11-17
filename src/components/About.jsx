@@ -10,7 +10,7 @@ const About = () => (
     <div className="bio">
       <h1 className="about-title">{data.data.occupation}</h1>
       <p>
-        Hello,
+        Hey,
         I&apos;m
         <span className="name">
           {' '}
