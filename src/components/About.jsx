@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink as Link } from 'react-router-dom';
 import data from './database/data.json';
 
 const About = () => (
@@ -23,9 +22,9 @@ const About = () => (
         now open to fulltime opportunities. I have a demonstrated history
         of both leading and working in teams, along with good time management skills.
         {/* skills. I enjoy learning new skills and am constantly expanding my
-        current abilities. */}
+          current abilities. */}
       </p>
-      <Link className="buton" to="/Skills"><button type="button" className="btn btn-primary">See More</button></Link>
+      <button type="button" className="btn btn-primary">See More</button>
     </div>
   </section>
 );
