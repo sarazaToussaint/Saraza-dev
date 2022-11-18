@@ -26,10 +26,10 @@ const About = () => {
           {/* skills. I enjoy learning new skills and am constantly expanding my
             current abilities. */}
         </p>
-      <button type="button" className="btn btn-primary">See More</button>
-    </div>
-  </section>
-);
+        <button type="button" className="btn btn-primary">See More</button>
+      </div>
+    </section>
+  );
 };
 
 export default About;
