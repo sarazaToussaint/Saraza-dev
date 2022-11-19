@@ -29,7 +29,7 @@ const Home = () => (
         <VscGithubAlt />
       </a>
     </div>
-    <Link className="buton" to="/About"><button type="button" className="btn btn-primary">Get in touch</button></Link>
+    <Link className="buton" to="/Contact"><button type="button" className="btn btn-primary">Get in touch</button></Link>
   </div>
 );
 

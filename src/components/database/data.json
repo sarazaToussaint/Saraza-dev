@@ -1,4 +1,9 @@
 {
-  "data": [
-  ]
+  "data": {
+    "developer": "Toussaint Saraza",
+    "devPhoto": "./assets/devImg.jpeg",
+    "occupation": "Full-Stack Web Developer"
+
+  }
+
 }
