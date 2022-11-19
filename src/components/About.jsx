@@ -43,7 +43,7 @@ const About = () => {
       >
         <div>
           <div className="modal-header">
-            <div className="modal-title">Modal Heading</div>
+            <div className="modal-title">Full-Stack Web Developer</div>
             <div>
               <span className="close-button" onClick={handleClose} onKeyDown>
                 x
@@ -51,23 +51,31 @@ const About = () => {
             </div>
           </div>
           <div className="modal-desc">
-            <p>
-              a self-motivated and goal orientated individual with a degree
-              in Computer Science from Kigali Independent University.
-              I have worked on a variety of fullstack projects when studied at Microverse and
-              now open to fulltime opportunities. I have a demonstrated history
-              of both leading and working in teams, along with good time management skills.
-              a self-motivated and goal orientated individual with a degree
-              in Computer Science from Kigali Independent University.
-              I have worked on a variety of fullstack projects when studied at Microverse and
-              now open to fulltime opportunities. I have a demonstrated history
-              of both leading and working in teams, along with good time management skills.
-              a self-motivated and goal orientated individual with a degree
-              in Computer Science from Kigali Independent University.
-              I have worked on a variety of fullstack projects when studied at Microverse and
-              now open to fulltime opportunities. I have a demonstrated history
-              of both leading and working in teams, along with good time management skills
-            </p>
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+            I have worked on a variety of fullstack projects when studied at Microverse and
+            now open to fulltime opportunities. I have a demonstrated history
+            of both leading and working in teams, along with good time management skills.
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+            I have worked on a variety of fullstack projects when studied at Microverse and
+            now open to fulltime opportunities. I have a demonstrated history
+            of both leading and working in teams, along with good time management skills.
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+            I have worked on a variety of fullstack projects when studied at Microverse and
+            now open to fulltime opportunities. I have a demonstrated history
+            of both leading and working in teams, along with good time management skills.
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+            I have worked on a variety of fullstack projects when studied at Microverse and
+            open to fulltime opportunities. I have a demonstrated history
+            of both leadnow open to fulltime opportunities. I have a demonstrated history
+            of both leading and working in teams, along with good time management skills.
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+            I have worked on a variety of fullstack projects when studied at Microverse and
+            now ing and working in teams, along with good time management skills.
           </div>
           <div className="modal-footer">
             <button type="button" className="secondary-button" onClick={handleClose}>
