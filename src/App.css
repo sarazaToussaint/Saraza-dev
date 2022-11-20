@@ -201,8 +201,8 @@ button {
   }
 }
 
-.skills,
-.project,
+.skill,
+.projects,
 .contact {
   color: #fff;
 }
@@ -259,7 +259,7 @@ button {
 
 .modal-title {
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .modal-header {
