@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-overlays/Modal';
 import data from './database/data.json';
+import styles from './About.module.css';
 
 const About = () => {
   const [showModal, setShowModal] = useState(false);
@@ -36,49 +37,47 @@ const About = () => {
       </div>
 
       <Modal
-        className="modal"
+        className={styles.modal}
         show={showModal}
         onHide={handleClose}
         renderBackdrop={renderBackdrop}
       >
         <div>
-          <div className="modal-header">
-            <div className="modal-title">Full-Stack Web Developer</div>
+          <div className={styles.modalHeader}>
+            <div className={styles.modalTitle}>About me</div>
             <div>
-              <span className="close-button" onClick={handleClose} onKeyDown>
+              <span className={styles.closeButton} onClick={handleClose} onKeyDown>
                 x
               </span>
             </div>
           </div>
-          <div className="modal-desc">
+          <div className={styles.modalDesc}>
+            Hey,
+            I&apos;m
+            <span className="name">
+              {' '}
+              {data.data.developer}
+              {' '}
+            </span>
             a self-motivated and goal orientated individual with a degree
             in Computer Science from Kigali Independent University.
             I have worked on a variety of fullstack projects when studied at Microverse and
             now open to fulltime opportunities. I have a demonstrated history
             of both leading and working in teams, along with good time management skills.
-            a self-motivated and goal orientated individual with a degree
-            in Computer Science from Kigali Independent University.
-            I have worked on a variety of fullstack projects when studied at Microverse and
-            now open to fulltime opportunities. I have a demonstrated history
-            of both leading and working in teams, along with good time management skills.
-            a self-motivated and goal orientated individual with a degree
-            in Computer Science from Kigali Independent University.
-            I have worked on a variety of fullstack projects when studied at Microverse and
-            now open to fulltime opportunities. I have a demonstrated history
-            of both leading and working in teams, along with good time management skills.
-            a self-motivated and goal orientated individual with a degree
-            in Computer Science from Kigali Independent University.
-            I have worked on a variety of fullstack projects when studied at Microverse and
-            open to fulltime opportunities. I have a demonstrated history
-            of both leadnow open to fulltime opportunities. I have a demonstrated history
-            of both leading and working in teams, along with good time management skills.
-            a self-motivated and goal orientated individual with a degree
-            in Computer Science from Kigali Independent University.
-            I have worked on a variety of fullstack projects when studied at Microverse and
-            now ing and working in teams, along with good time management skills.
+
+            <div className="skills">
+              <h1>Programming Skills</h1>
+              <div>
+                <h4>Ruby</h4>
+                <img className={styles.logo} src={data.data.ruby} alt={data.data.ruby} />
+                <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
+                <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" alt="" />
+                <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="" />
+              </div>
+            </div>
           </div>
-          <div className="modal-footer">
-            <button type="button" className="secondary-button" onClick={handleClose}>
+          <div className={styles.modalFooter}>
+            <button type="button" className={styles.secondaryButton} onClick={handleClose}>
               Close
             </button>
           </div>
