@@ -2,6 +2,7 @@
   "data": {
     "developer": "Toussaint Saraza",
     "devPhoto": "./assets/devImg.jpeg",
+    "ruby": "./assets/ruby.png",
     "occupation": "Full-Stack Web Developer"
 
   }
