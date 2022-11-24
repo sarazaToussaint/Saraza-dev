@@ -142,7 +142,10 @@ const About = () => {
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" />
                   <h4>GitHub</h4>
                 </div>
-
+                <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
+                  <h4>Git</h4>
+                </div>
               </div>
             </div>
           </div>
