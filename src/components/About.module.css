@@ -81,12 +81,12 @@
   flex-direction: column;
 }
 
+/* Languages */
+
 .logo {
   width: 50px;
   height: 50px;
 }
-
-/* Languages */
 
 .card {
   background-color: #fff;
@@ -97,11 +97,15 @@
   margin: 10px;
 }
 
-.skills .card {
-  text-align: center;
-  margin: 18px 10px 40px;
-  transition: transform 0.2s ease-in;
+.skills {
+  justify-content: center;
 }
+
+/* .skills .card {
+  text-align: center;
+  margin: 10px 10px 40px;
+  transition: transform 0.2s ease-in;
+} */
 
 .flex {
   display: flex;
@@ -112,8 +116,8 @@
   flex-wrap: wrap;
 }
 
-.skills .card h4 {
-  font-size: 20px;
+.skills .card h6 {
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
