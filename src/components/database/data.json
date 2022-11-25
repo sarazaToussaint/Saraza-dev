@@ -2,8 +2,30 @@
   "data": {
     "developer": "Toussaint Saraza",
     "devPhoto": "./assets/devImg.jpeg",
-    "ruby": "./assets/ruby.png",
-    "occupation": "Full-Stack Web Developer"
+    "occupation": "Full-Stack Web Developer",
+    "recommendations": [
+      {
+        "id": 1,
+        "name": "DENIS KALENGA WATSHIPAMBA",
+        "occupation": "Software Engineer",
+        "recommend": "I had the pleasure of working with Toussaint for two years, collaborating on several projects. He has proved to be a very organized and passionate engineer. Highly recommendable.",
+        "photo":"./assets/deny.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Happen Mathebula",
+        "occupation": "Full-Stack Software Developer",
+        "recommend": "Toussaint Saraza, is the most persistent person I have seen in Microverse, he progressed any many aspects in short period, along side with his technical skills his soft skills are great too.",
+        "photo":"./assets/happen.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Ibrahim Ahmat",
+        "occupation": "Software Developer",
+        "recommend": "Toussaint Saraza, is the most persistent person I have seen in Microverse, he progressed any many aspects in short period, along side with his technical skills his soft skills are great too.",
+        "photo":"./assets/ibrahim.jpeg"
+      }
+    ]
 
   }
 
