@@ -66,93 +66,91 @@ const About = () => {
             of both leading and working in teams, along with good time management skills.
 
             <div className={styles.skills}>
-              <h1>Programming Skills</h1>
+              <h2>Programming Skills</h2>
               <div className={styles.flex}>
                 <div className={styles.card}>
-                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg" alt="" />
-                  <h4>Ruby</h4>
-                </div>
-                <div className={styles.card}>
-                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                  <h4>Boostrap</h4>
-                </div>
-                <div className={styles.card}>
-                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" alt="" />
-                  <h4>Rails</h4>
-                </div>
-                <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
-                  <h4>HTML5</h4>
+                  <h6>HTML5</h6>
                 </div>
                 <div className={styles.card}>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />
-                  <h4>CSS3</h4>
+                  <h6>CSS3</h6>
                 </div>
                 <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
+                  <h6>Boostrap</h6>
+                </div>
+                {/* <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="" />
+                  <h6>Sass</h6>
+                </div> */}
+                <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
-                  <h4>JavaScript</h4>
+                  <h6>JavaScript</h6>
+                </div>
+                <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                  <h6>React.js</h6>
+                </div>
+                <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
+                  <h6>Redux</h6>
+                </div>
+
+                <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg" alt="" />
+                  <h6>Ruby</h6>
+                </div>
+
+                <div className={styles.card}>
+                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" alt="" />
+                  <h6>Rails</h6>
                 </div>
 
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />
-                  <h4>PostgreSql</h4>
+                  <h6>PostgreSql</h6>
                 </div>
-                <div className={styles.card}>
-                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
-                  <h4>React.js</h4>
-                </div>
-                <div className={styles.card}>
-                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
-                  <h4>Redux</h4>
-                </div>
+
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="" />
-                  <h4>Node.js</h4>
+                  <h6>Node.js</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="" />
-                  <h4>Webpack</h4>
+                  <h6>Webpack</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="" />
-                  <h4>Jest</h4>
+                  <h6>Jest</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rspec/rspec-original.svg" alt="" />
-                  <h4>Rspec</h4>
+                  <h6>Rspec</h6>
                 </div>
 
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" />
-                  <h4>VsCode</h4>
+                  <h6>VsCode</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="" />
-                  <h4>Heroku</h4>
-                </div>
-                <div className={styles.card}>
-                  <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="" />
-                  <h4>Sass</h4>
+                  <h6>Heroku</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" alt="" />
-                  <h4>Eslint</h4>
+                  <h6>Eslint</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" />
-                  <h4>GitHub</h4>
+                  <h6>GitHub</h6>
                 </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
-                  <h4>Git</h4>
+                  <h6>Git</h6>
                 </div>
               </div>
             </div>
-          </div>
-          <div className={styles.modalFooter}>
-            <button type="button" className={styles.secondaryButton} onClick={handleClose}>
-              Close
-            </button>
           </div>
         </div>
       </Modal>
