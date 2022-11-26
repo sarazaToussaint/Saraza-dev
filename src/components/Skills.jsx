@@ -2,10 +2,12 @@ import React from 'react';
 import Carousel from 'nuka-carousel';
 import { RiSingleQuotesR, RiSingleQuotesL } from 'react-icons/ri';
 import data from './database/data.json';
+import styles from './About.module.css';
 
 const Skills = () => (
-  <div className="recommendation">
-    <div className="carousel-container">
+  <div className={styles.recommendation}>
+    <h1 className={styles.title}>What people says about me</h1>
+    <div className="carouselContainer">
       <Carousel
         autoplay="true"
         wrapAround="true"
