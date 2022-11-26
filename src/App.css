@@ -314,3 +314,9 @@ button {
   align-items: center;
   flex-direction: column;
 }
+
+.rounded-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
