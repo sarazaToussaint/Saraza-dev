@@ -316,7 +316,7 @@ button {
 }
 
 .rounded-circle {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 60px;
   border-radius: 50%;
 }
