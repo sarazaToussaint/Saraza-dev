@@ -6,7 +6,7 @@ import styles from './About.module.css';
 
 const Skills = () => (
   <div className={styles.recommendation}>
-    <h1 className={styles.title}>What people says about me</h1>
+    <h1 className={styles.title}>Peoples Feedback</h1>
     <div className="carouselContainer">
       <Carousel
         autoplay="true"
