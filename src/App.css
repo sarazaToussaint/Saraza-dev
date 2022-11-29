@@ -322,8 +322,8 @@ button {
 }
 
 .letter {
-  background-color: #fff;
-  color: #333;
+  background-color: #000;
+  color: #fff;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
