@@ -2,7 +2,6 @@ import React from 'react';
 import { VscGithubAlt, VscTwitter } from 'react-icons/vsc';
 import { ImLinkedin2 } from 'react-icons/im';
 import { NavLink as Link } from 'react-router-dom';
-import Skills from './Skills';
 
 const Home = () => (
   <>
@@ -33,7 +32,6 @@ const Home = () => (
       </div>
       <Link className="buton" to="/Contact"><button type="button" className="btn btn-primary">Get in touch</button></Link>
     </div>
-    <Skills />
   </>
 );
 
