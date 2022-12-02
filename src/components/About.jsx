@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-overlays/Modal';
 import data from './database/data.json';
+import Skills from './Skills';
 import styles from './About.module.css';
 
 const About = () => {
@@ -80,10 +81,10 @@ const About = () => {
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
                   <h6>Boostrap</h6>
                 </div>
-                {/* <div className={styles.card}>
+                <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="" />
                   <h6>Sass</h6>
-                </div> */}
+                </div>
                 <div className={styles.card}>
                   <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
                   <h6>JavaScript</h6>
@@ -151,6 +152,7 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <Skills />
           </div>
         </div>
       </Modal>
