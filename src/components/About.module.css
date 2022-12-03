@@ -5,7 +5,8 @@
   left: 17%;
   overflow-y: auto;
   z-index: 1040;
-  background-color: white;
+  background-color: #1a1e23;
+  color: #e9ecef;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -127,8 +128,8 @@
 }
 
 .recommendation {
-  background-color: #fff;
-  color: #000;
+  background-color: #1a1e23;
+  color: #fff;
   margin-top: 60px;
   padding: 50px;
   justify-content: center;
