@@ -53,19 +53,20 @@ const About = () => {
             </div>
           </div>
           <div className={styles.modalDesc}>
-            Hey,
-            I&apos;m
-            <span className="name">
-              {' '}
-              {data.data.developer}
-              {' '}
-            </span>
-            a self-motivated and goal orientated individual with a degree
-            in Computer Science from Kigali Independent University.
-            I have worked on a variety of fullstack projects when studied at Microverse and
-            now open to fulltime opportunities. I have a demonstrated history
-            of both leading and working in teams, along with good time management skills.
-
+            <p className={styles.para}>
+              Hey,
+              I&apos;m
+              <span className="name">
+                {' '}
+                {data.data.developer}
+                {' '}
+              </span>
+              a self-motivated and goal orientated individual with a degree
+              in Computer Science from Kigali Independent University.
+              I have worked on a variety of fullstack projects when studied at Microverse and
+              now open to fulltime opportunities. I have a demonstrated history
+              of both leading and working in teams, along with good time management skills.
+            </p>
             <div className={styles.skills}>
               <h2>Programming Skills</h2>
               <div className={styles.flex}>
