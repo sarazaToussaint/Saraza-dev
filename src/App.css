@@ -231,21 +231,6 @@ button {
   animation: slideInFromLeft 1s ease-in;
 }
 
-/* Modal style */
-
-.modal {
-  position: fixed;
-  width: 65%;
-  top: 15%;
-  left: 17%;
-  overflow-y: auto;
-  z-index: 1040;
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
 .backdrop {
   position: fixed;
   z-index: 1040;
@@ -277,6 +262,7 @@ button {
   padding: 12px;
   height: 60vh;
   overflow-y: auto;
+  color: #fff;
 }
 
 .close-button {
@@ -322,8 +308,8 @@ button {
 }
 
 .letter {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
