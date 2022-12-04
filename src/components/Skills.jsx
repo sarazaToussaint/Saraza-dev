@@ -36,7 +36,7 @@ const Skills = () => (
             </div>
             <p className="reco-letter">
               <RiSingleQuotesL className="qoute" />
-              {' '}
+              {/* {' '} */}
               {item.recommend}
               <RiSingleQuotesR className="qoute" />
             </p>
