@@ -25,17 +25,13 @@
 
 .modalTitle {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .modalHeader {
   border-bottom: 1px solid #e9ecef;
   display: flex;
   justify-content: space-between;
-}
-
-.modalHeader,
-.modalHooter {
   padding: 10px;
 }
 
@@ -43,25 +39,17 @@
   padding: 12px;
   height: 60vh;
   overflow-y: auto;
-  color: #000;
+  color: #fff;
 }
 
 .closeButton {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: #fff;
   border: none;
-  background-color: white;
   opacity: 0.7;
   cursor: pointer;
-}
-
-.modalFooter {
-  border-top: 1px solid #e9ecef;
-  display: flex;
-  justify-content: flex-end;
-  gap: 8px;
 }
 
 .secondaryButton {
@@ -90,23 +78,22 @@
 }
 
 .card {
-  background-color: #fff;
-  color: #333;
+  background-color: #1a1e23;
+  color: #fff;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
 }
 
 .skills {
   justify-content: center;
+  background-color: #333;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
 }
-
-/* .skills .card {
-  text-align: center;
-  margin: 10px 10px 40px;
-  transition: transform 0.2s ease-in;
-} */
 
 .flex {
   display: flex;
@@ -122,6 +109,12 @@
   margin-bottom: 10px;
 }
 
+.head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .skills .card:hover {
   transform: translateY(-15px);
   color: #007bff;
@@ -133,4 +126,19 @@
   margin-top: 30px;
   padding: 50px;
   justify-content: center;
+}
+
+.letter {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.recomendImg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
 }
