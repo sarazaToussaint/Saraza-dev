@@ -6,7 +6,7 @@ import styles from './About.module.css';
 
 const Skills = () => (
   <div className={styles.recommendation}>
-    <h1 className={styles.title}>Peoples Feedback</h1>
+    <h2 className={styles.title}>People&apos;s Feedback</h2>
     <div className="carouselContainer">
       <Carousel
         autoplay="true"
@@ -26,9 +26,9 @@ const Skills = () => (
         }}
       >
         {data.data.recommendations.map((item) => (
-          <div key={item.id} className="letter d-flex flex-column">
-            <div className="d-flex flex-row">
-              <img className="rounded-circle recomend-img" src={item.photo} alt={item.name} />
+          <div key={item.id} className={styles.letter}>
+            <div className={styles.head}>
+              <img className={styles.recomendImg} src={item.photo} alt={item.name} />
               <div className="recomand-header align-items-center m-2">
                 <h4>{item.name}</h4>
                 <p>{item.occupation}</p>
