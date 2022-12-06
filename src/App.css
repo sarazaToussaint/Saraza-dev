@@ -213,6 +213,12 @@ button {
   border-radius: 16px;
 }
 
+.dev-imgTwo {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+}
+
 .bio {
   color: #fff;
   margin-top: -1.5rem;
