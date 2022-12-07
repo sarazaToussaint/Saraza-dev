@@ -5,11 +5,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  margin: 0;
-  background-color: #000;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
