@@ -41,9 +41,11 @@ const About = () => {
         onHide={handleClose}
         renderBackdrop={renderBackdrop}
       >
-        <div>
+        <div
           <div className={styles.modalHeader}>
             <div className={styles.modalTitle}>About Me</div>
+          <div className="modal-header">
+            <div className="modal-title">About me</div>
             <div>
               <span className={styles.closeButton} onClick={handleClose} onKeyDown>
                 x
@@ -72,6 +74,19 @@ const About = () => {
               </div>
             </div>
             <Skills />
+          <div className="modal-desc">
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+            I have worked on a variety of fullstack projects when studied at Microverse and
+            now open to fulltime opportunities. I have a demonstrated history
+            of both leading and working in teams, along with good time management skills.
+            a self-motivated and goal orientated individual with a degree
+            in Computer Science from Kigali Independent University.
+          </div>
+          <div className="modal-footer">
+            <button type="button" className="secondary-button" onClick={handleClose}>
+              Close
+            </button>
           </div>
         </div>
       </Modal>
