@@ -29,14 +29,14 @@
 }
 
 .modalHeader {
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: #007bff 1px dashed;
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
 
 .modalDesc {
-  padding: 12px;
+  padding: 36px;
   height: 60vh;
   overflow-y: auto;
   color: #fff;
@@ -142,6 +142,19 @@
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+
+.resume {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.resume a {
+  text-decoration: none;
+  border-bottom: #007bff 3px dashed;
+  color: aqua;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 @keyframes slideInFromLeft {
