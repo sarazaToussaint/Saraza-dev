@@ -12,7 +12,7 @@ const About = () => {
   const renderBackdrop = (props) => <div className="backdrop" {...props} />;
 
   return (
-    <section className="about-container">
+    <section className="about-container bubbles">
       <div className="photo">
         <img className="dev-img" src={data.data.devPhoto} alt={data.data.developer} />
       </div>
