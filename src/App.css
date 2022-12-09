@@ -154,8 +154,6 @@ button {
   -webkit-transform: skewY(-6deg);
 }
 
-/* Animation */
-
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
