@@ -7,7 +7,7 @@ import styles from './About.module.css';
 const Skills = () => (
   <>
     <div className={styles.skills}>
-      <h2>Programming Skills</h2>
+      <h2>Skills</h2>
       <div className={styles.flex}>
         <div className={styles.card}>
           <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
