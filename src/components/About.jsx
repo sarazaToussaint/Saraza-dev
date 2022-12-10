@@ -66,9 +66,6 @@ const About = () => {
               now open to fulltime opportunities. I have a demonstrated history
               of both leading and working in teams, along with good time management skills.
             </p>
-            <div className={styles.resume}>
-              <a href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit" target="_blank" rel="noreferrer">Check my Resume</a>
-            </div>
           </div>
           <Skills />
         </div>
