@@ -76,6 +76,14 @@ const Home = () => (
     <div className="bubble"></div>
     <div className="bubble"></div>
     <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
+    <div className="bubble"></div>
   </div>
 );
 
