@@ -143,21 +143,6 @@ button {
   gap: 5px;
 }
 
-/* .container::before,
-.container::after {
-  content: '';
-  position: absolute;
-  height: 65px;
-  bottom: 70px;
-  left: 0;
-  right: 0;
-  background: #fff;
-  transform: skewY(-6deg);
-  -webkit-transform: skewY(-6deg);
-  -webkit-transform: skewY(-6deg);
-  -webkit-transform: skewY(-6deg);
-} */
-
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
