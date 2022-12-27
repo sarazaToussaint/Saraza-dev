@@ -149,6 +149,14 @@
   margin-bottom: 50px;
 }
 
+.resume a {
+  text-decoration: none;
+  border-bottom: #007bff 3px dashed;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
