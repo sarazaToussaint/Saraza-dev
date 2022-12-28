@@ -86,6 +86,10 @@ const Skills = () => (
           <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" />
           <h6>GitHub</h6>
         </div>
+        <div className={styles.card}>
+          <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
+          <h6>Git</h6>
+        </div>
       </div>
     </div>
 
