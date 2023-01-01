@@ -102,7 +102,7 @@ const Skills = () => (
           adaptiveHeight="true"
           cellSpacing={50}
           pauseOnHover="true"
-          autoplayInterval={9000}
+          autoplayInterval={8000}
           slidesToShow={1}
           swiping="true"
           defaultControlsConfig={{
