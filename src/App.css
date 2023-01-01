@@ -214,7 +214,3 @@ button {
   gap: 40px;
   max-width: 65%;
 }
-
-.photo {
-  animation: slideInFromLeft 1s ease-in;
-}
