@@ -71,7 +71,7 @@ const About = () => {
                 <a href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit" target="_blank" rel="noreferrer">Check my Resume</a>
               </div>
             </div>
-            <Skill />
+            <Skills />
           </div>
         </div>
       </Modal>
