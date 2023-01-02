@@ -5,7 +5,7 @@ import { ImLinkedin2 } from 'react-icons/im';
 import { NavLink as Link } from 'react-router-dom';
 
 const Home = () => (
-  <div className="bubble">
+  <div className="bubbles">
     <div className="container">
       <h1 className="home-title">
         TOUSSAINT
