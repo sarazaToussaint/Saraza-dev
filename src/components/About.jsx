@@ -61,7 +61,7 @@ const About = () => {
                   {data.data.developer}
                   {' '}
                 </span>
-                a self-motivated and goal orientated individual with a degree
+                a self and goal orientated individual with a degree
                 in Computer Science from Kigali Independent University.
                 I have worked on a variety of fullstack projects when studied at Microverse and
                 now open to fulltime opportunities. I have a demonstrated history
