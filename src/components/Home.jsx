@@ -7,7 +7,7 @@ import { NavLink as Link } from 'react-router-dom';
 const Home = () => (
   <div className="bubbles">
     <div className="container">
-      <h1 className="home-title">
+      <h1 className="home-tit">
         TOUSSAINT
         <span> SARAZA</span>
       </h1>
