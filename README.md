@@ -1,3 +1,3 @@
-# My Portfolio
+# MY PORTFOLIO
 
-This is a personnel website
+This is my portfolio site
