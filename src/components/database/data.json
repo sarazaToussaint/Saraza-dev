@@ -26,6 +26,14 @@
         "photo":"./assets/ibrahim.jpeg"
       }
       
+    ],
+
+    "projects": [
+      {
+        "id": 1,
+        "name": "Luxy Rides",
+        "image": "./assets/LuxyCar.png"
+      }
     ]
 
   }
