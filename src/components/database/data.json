@@ -117,6 +117,43 @@
         "description": "Budget-app is a mobile web application that assists users with money management. It may also show consumers a list of transactions they've done that are tied to their categories, as well as the overall amount of money they've spent.",
         "sourceLink": "https://github.com/sarazaToussaint/Budget-app",
         "liveLink": "https://budget-app-xyty.onrender.com/"
+      },
+
+      {
+        "id": 3,
+        "name": "Book Store",
+        "image": "./assets/Bookstore.png",
+        "spans": [
+          {
+            "id": 1,
+            "span": "Microverse"
+          },
+          {
+            "id": 2,
+            "span": "Front-End App"
+          },
+          {
+            "id": 3,
+            "span": "June-2022"
+          }
+        ],
+        "tools": [
+            {
+              "id": 1,
+              "lang": "React"
+            },
+            {
+              "id": 2,
+              "lang": "Redux"
+            },
+            {
+              "id": 3,
+              "lang": "Jest"
+            }
+        ],
+        "description": "Bookstore is a website that allows a User to add a list of books, edit and remove a book. This website is built with React and Redux.",
+        "sourceLink": "https://github.com/sarazaToussaint/Book-Store",
+        "liveLink": "https://delicate-froyo-30f60e.netlify.app/"
       }
      
     ]
