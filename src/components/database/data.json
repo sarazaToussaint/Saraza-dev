@@ -72,7 +72,53 @@
         "description": "This project is made for the reservation of fancy cars. If you're preparing for a special day/event and you want a cool car for it this website is the best place for you.",
         "sourceLink": "https://github.com/sarazaToussaint/Luxy-Rides-API",
         "liveLink": "https://luxy-ride-frontend.vercel.app/"
+      },
+
+      {
+        "id": 2,
+        "name": "Budgetify",
+        "image": "./assets/BudgetApp.png",
+        "spans": [
+          {
+            "id": 1,
+            "span": "Microverse"
+          },
+          {
+            "id": 2,
+            "span": "Full Stack App"
+          },
+          {
+            "id": 3,
+            "span": "September-2022"
+          }
+        ],
+        "tools": [
+            {
+              "id": 1,
+              "lang": "Sass"
+            },
+            {
+              "id": 2,
+              "lang": "Postgresql"
+            },
+            {
+              "id": 3,
+              "lang": "Ruby"
+            },
+            {
+              "id": 4,
+              "lang": "Ruby on Rails"
+            },
+            {
+              "id": 5,
+              "lang": "Rspec"
+            }
+        ],
+        "description": "Budget-app is a mobile web application that assists users with money management. It may also show consumers a list of transactions they've done that are tied to their categories, as well as the overall amount of money they've spent.",
+        "sourceLink": "https://github.com/sarazaToussaint/Budget-app",
+        "liveLink": "https://budget-app-xyty.onrender.com/"
       }
+     
     ]
 
   }
