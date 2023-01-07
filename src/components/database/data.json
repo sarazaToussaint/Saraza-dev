@@ -56,16 +56,13 @@
               "id": 2,
               "lang": "Redux"
             },
+          
             {
               "id": 3,
-              "lang": "Boostrap"
-            },
-            {
-              "id": 4,
               "lang": "Ruby on Rails"
             },
             {
-              "id": 5,
+              "id": 4,
               "lang": "Rspec"
             }
         ],
@@ -108,13 +105,9 @@
             {
               "id": 4,
               "lang": "Ruby on Rails"
-            },
-            {
-              "id": 5,
-              "lang": "Rspec"
             }
         ],
-        "description": "Budget-app is a mobile web application that assists users with money management. It may also show consumers a list of transactions they've done that are tied to their categories, as well as the overall amount of money they've spent.",
+        "description": "Budget-app is a mobile web application that assists users with money management.",
         "sourceLink": "https://github.com/sarazaToussaint/Budget-app",
         "liveLink": "https://budget-app-xyty.onrender.com/"
       },
