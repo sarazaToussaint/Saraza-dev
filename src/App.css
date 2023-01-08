@@ -373,7 +373,7 @@ button {
 }
 
 .container2 {
-  animation: slideInFromTop 1s ease-in;
+  animation: slideInFromBottom 1s ease-in;
 }
 
 .btn {
