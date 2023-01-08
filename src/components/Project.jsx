@@ -11,7 +11,7 @@ const Project = () => (
     <section className={styles.projectsContainer}>
       <div className={styles.projectsCarousel}>
         <Carousel
-          className={styles.container2}
+          className="container2"
           wrapAround="true"
           adaptiveHeight="true"
           cellSpacing={50}
