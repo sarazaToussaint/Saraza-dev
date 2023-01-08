@@ -46,7 +46,7 @@ const Project = () => (
                   ))}
                 </ul>
                 <div className="d-flex flex-row mt-2 mb-5">
-                  <div className="card-btns rounded-pill">
+                  <div className={styles.cardBtns}>
                     <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn live btn-bg">
                       live
                       {' '}
