@@ -310,10 +310,6 @@ button {
   border-radius: 50rem 0 0 50rem;
 }
 
-.container2 {
-  animation: slideInFromBottom 1s ease-in;
-}
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -333,4 +329,8 @@ button {
     border: 1px solid transparent;
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+
+.container2 {
+  animation: slideInFromBottom 1s ease-in;
 }
