@@ -11,7 +11,7 @@ const Project = () => (
     <section className="projects-container">
       <div className="projects-carousel">
         <Carousel
-          className="container2"
+          className={styles.container2}
           wrapAround="true"
           adaptiveHeight="true"
           cellSpacing={50}
@@ -28,7 +28,7 @@ const Project = () => (
           }}
         >
           {data.data.projects.map((project) => (
-            <div key={project.id} className="card d-flex flex-row projects">
+            <div key={project.id} className={styles.projects}>
               <img src={project.image} className={styles.projectImg} alt={project.name} />
               <div className="d-flex flex-column">
                 <div className="card-body d-flex flex-column m-3">
