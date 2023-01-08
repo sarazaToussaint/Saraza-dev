@@ -8,7 +8,7 @@ import styles from './Project.module.css';
 
 const Project = () => (
   <>
-    <section className="projects-container">
+    <section className={styles.projectsContainer}>
       <div className="projects-carousel">
         <Carousel
           className={styles.container2}
