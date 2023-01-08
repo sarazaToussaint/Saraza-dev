@@ -4,6 +4,7 @@ import { FaArrowCircleRight, FaArrowCircleLeft } from 'react-icons/fa';
 import { VscSourceControl } from 'react-icons/vsc';
 import { GiMeshNetwork } from 'react-icons/gi';
 import data from './database/data.json';
+import styles from './Project.module.css';
 
 const Project = () => (
   <>
@@ -28,7 +29,7 @@ const Project = () => (
         >
           {data.data.projects.map((project) => (
             <div key={project.id} className="card d-flex flex-row projects">
-              <img src={project.image} className="project-img" alt={project.name} />
+              <img src={project.image} className={styles.projectImg} alt={project.name} />
               <div className="d-flex flex-column">
                 <div className="card-body d-flex flex-column m-3">
                   <h3 className="card-title">{project.name}</h3>
