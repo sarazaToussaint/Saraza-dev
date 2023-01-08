@@ -9,7 +9,7 @@ import styles from './Project.module.css';
 const Project = () => (
   <>
     <section className={styles.projectsContainer}>
-      <div className="projects-carousel">
+      <div className={styles.projectsCarousel}>
         <Carousel
           className={styles.container2}
           wrapAround="true"
@@ -20,8 +20,8 @@ const Project = () => (
           autoplay="true"
           autoplayInterval={5000}
           defaultControlsConfig={{
-            nextButtonText: <FaArrowCircleRight className="arrow" />,
-            prevButtonText: <FaArrowCircleLeft className="arrow" />,
+            nextButtonText: <FaArrowCircleRight className={styles.arrow} />,
+            prevButtonText: <FaArrowCircleLeft className={styles.arrow} />,
             pagingDotsStyle: {
               fill: '#89cdbe',
             },
@@ -40,7 +40,7 @@ const Project = () => (
                   </div>
                   <p className="card-text">{project.description}</p>
                 </div>
-                <ul className="d-flex flex-row justify-content-start tools">
+                <ul className={styles.tools}>
                   {project.tools.map((tool) => (
                     <li key={tool.id} className="list-group p-1 m-1 border">{tool.lang}</li>
                   ))}
