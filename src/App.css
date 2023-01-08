@@ -292,3 +292,45 @@ button {
     font-size: 24px;
   }
 }
+
+/* ------------------------------------ */
+
+.btn-bg {
+  font-weight: 600;
+  color: #000;
+  margin: 0 auto;
+}
+
+.source {
+  border-left: 1.5px solid #000;
+  border-radius: 0 50rem 50rem 0;
+}
+
+.live {
+  border-radius: 50rem 0 0 50rem;
+}
+
+.container2 {
+  animation: slideInFromBottom 1s ease-in;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding: 0.355rem 0.55rem;
+  font-size: 1rem;
+
+  /* background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
