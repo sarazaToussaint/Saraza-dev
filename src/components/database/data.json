@@ -147,6 +147,78 @@
         "description": "Bookstore is a website that allows a User to add a list of books, edit and remove a book. This website is built with React and Redux.",
         "sourceLink": "https://github.com/sarazaToussaint/Book-Store",
         "liveLink": "https://delicate-froyo-30f60e.netlify.app/"
+      },
+
+      {
+        "id": 4,
+        "name": "Grill Restarant",
+        "image": "./assets/restaurant.png",
+        "spans": [
+          {
+            "id": 1,
+            "span": "Microverse"
+          },
+          {
+            "id": 2,
+            "span": "Front-End App"
+          },
+          {
+            "id": 3,
+            "span": "March-2022"
+          }
+        ],
+        "tools": [
+            {
+              "id": 1,
+              "lang": "Html5"
+            },
+            {
+              "id": 2,
+              "lang": "Css3"
+            }
+        
+        ],
+        "description": "Grill is a restaurant website.",
+        "sourceLink": "https://github.com/sarazaToussaint/Grill_Capstone-1",
+        "liveLink": "https://sarazatoussaint.github.io/Grill_Capstone-1/"
+      },
+
+      {
+        "id": 5,
+        "name": "Today's to do",
+        "image": "./assets/todays.png",
+        "spans": [
+          {
+            "id": 1,
+            "span": "Microverse"
+          },
+          {
+            "id": 2,
+            "span": "Front-End App"
+          },
+          {
+            "id": 3,
+            "span": "May-2022"
+          }
+        ],
+        "tools": [
+            {
+              "id": 1,
+              "lang": "Html5"
+            },
+            {
+              "id": 2,
+              "lang": "Css3"
+            },
+            {
+              "id": 3,
+              "lang": "JavaScript(Es6)"
+            }
+        
+        ],
+        "description": "This is project built to show the Today's tasks list, and give users access to add new task or delete the completed tasks.",
+        "sourceLink": "https://github.com/sarazaToussaint/To_Do_list",
+        "liveLink": "https://sarazatoussaint.github.io/To_Do_list/"
       }
      
     ]
