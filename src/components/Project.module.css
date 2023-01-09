@@ -41,13 +41,13 @@
 }
 
 .arrow {
-  color: #0693e3;
+  color: #fff;
   font-size: 2rem;
   margin: 0 5rem;
 }
 
 .arrow:hover {
-  color: #fff;
+  color: #0693e3;
   transform: scale(1.1);
 }
 
