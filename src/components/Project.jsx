@@ -33,7 +33,7 @@ const Project = () => (
               <div className="d-flex flex-column">
                 <div className="card-body d-flex flex-column m-3">
                   <h3 className="card-title">{project.name}</h3>
-                  <div className="gap-3 my-2">
+                  <div className={styles.my2}>
                     {project.spans.map((s) => (
                       <span key={s.id}>{s.span}</span>
                     ))}
