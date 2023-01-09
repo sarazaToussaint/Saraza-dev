@@ -338,5 +338,7 @@ button {
 .my-2 {
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
-  gap: 1rem !important;
+  gap: 2rem !important;
+  justify-content: space-around;
+  color: #0693e3;
 }
