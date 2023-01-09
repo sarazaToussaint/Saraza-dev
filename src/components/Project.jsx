@@ -32,7 +32,7 @@ const Project = () => (
               <img src={project.image} className={styles.projectImg} alt={project.name} />
               <div className="d-flex flex-column">
                 <div className="card-body d-flex flex-column m-3">
-                  <h3 className="card-title">{project.name}</h3>
+                  <h3 className={styles.title}>{project.name}</h3>
                   <div className={styles.my2}>
                     {project.spans.map((s) => (
                       <span key={s.id}>{s.span}</span>
