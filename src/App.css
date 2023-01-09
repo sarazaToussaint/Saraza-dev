@@ -334,3 +334,9 @@ button {
 .container2 {
   animation: slideInFromBottom 1s ease-in;
 }
+
+.my-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  gap: 1rem !important;
+}
