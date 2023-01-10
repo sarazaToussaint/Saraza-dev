@@ -38,7 +38,7 @@ const Project = () => (
                       <span key={s.id}>{s.span}</span>
                     ))}
                   </div>
-                  <p className="card-text">{project.description}</p>
+                  <p className="project-text">{project.description}</p>
                 </div>
                 <ul className={styles.tools}>
                   {project.tools.map((tool) => (
