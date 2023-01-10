@@ -66,7 +66,7 @@
               "lang": "Rspec"
             }
         ],
-        "description": "This project is made for the reservation of fancy cars. If you're preparing for a special day/event and you want a cool car for it this website is the best place for you.",
+        "description": "This project is made for the reservation of fancy cars.",
         "sourceLink": "https://github.com/sarazaToussaint/Luxy-Rides-API",
         "liveLink": "https://luxy-ride-frontend.vercel.app/"
       },
@@ -141,6 +141,10 @@
             },
             {
               "id": 3,
+              "lang": "API"
+            },
+            {
+              "id": 4,
               "lang": "Jest"
             }
         ],
@@ -175,6 +179,10 @@
             {
               "id": 2,
               "lang": "Css3"
+            },
+            {
+              "id": 3,
+              "lang": "JavaScript"
             }
         
         ],
