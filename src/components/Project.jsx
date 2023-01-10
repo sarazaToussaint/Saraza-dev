@@ -45,7 +45,7 @@ const Project = () => (
                     <li key={tool.id}>{tool.lang}</li>
                   ))}
                 </ul>
-                <div className="d-flex flex-row mt-2 mb-5">
+                <div>
                   <div className={styles.cardBtns}>
                     <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn live">
                       live
