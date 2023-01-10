@@ -42,17 +42,17 @@ const Project = () => (
                 </div>
                 <ul className={styles.tools}>
                   {project.tools.map((tool) => (
-                    <li key={tool.id} className="list-group p-1 m-1 border">{tool.lang}</li>
+                    <li key={tool.id}>{tool.lang}</li>
                   ))}
                 </ul>
                 <div className="d-flex flex-row mt-2 mb-5">
                   <div className={styles.cardBtns}>
-                    <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn live btn-bg">
+                    <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn live">
                       live
                       {' '}
                       <GiMeshNetwork />
                     </a>
-                    <a href={project.sourceLink} target="_blank" rel="noreferrer" className="btn source btn-bg">
+                    <a href={project.sourceLink} target="_blank" rel="noreferrer" className="btn source">
                       source
                       {' '}
                       <VscSourceControl />
