@@ -326,3 +326,8 @@ button {
 .container2 {
   animation: slideInFromBottom 1s ease-in;
 }
+
+.project-text {
+  font-size: 14px;
+  font-style: italic;
+}
