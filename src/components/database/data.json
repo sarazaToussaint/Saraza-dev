@@ -196,7 +196,7 @@
 
       {
         "id": 5,
-        "name": "Grill Restarant",
+        "name": "Grill Restaurant",
         "image": "./assets/restaurant.png",
         "spans": [
           {
@@ -227,7 +227,7 @@
             }
         
         ],
-        "description": "Grill is a restaurant website.",
+        "description": "Grill is a simple restaurant website.",
         "sourceLink": "https://github.com/sarazaToussaint/Grill_Capstone-1",
         "liveLink": "https://sarazatoussaint.github.io/Grill_Capstone-1/"
       },
