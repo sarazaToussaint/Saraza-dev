@@ -370,7 +370,7 @@ button {
     height: calc(100vh - 77px);
     background-color: white;
     border-top: 1px solid black;
-    display: none;
+    display: block;
   }
 
   .nav-links li {
