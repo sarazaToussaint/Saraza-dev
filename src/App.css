@@ -361,8 +361,6 @@ button {
     position: absolute;
     top: 90px;
     left: 0;
-
-    /* // stacks the li tags vertically  */
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 77px);
