@@ -364,9 +364,6 @@ button {
 
     /* // stacks the li tags vertically  */
     flex-direction: column;
-
-    /* // makes menu span full height and width */
-
     width: 100%;
     height: calc(100vh - 77px);
     background-color: white;
