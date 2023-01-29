@@ -365,7 +365,7 @@ button {
     background-color: #000;
     border-top: 1px solid black;
     padding-top: 5rem;
-    display: none;
+    display: block;
   }
 
   .nav-links ul li {
