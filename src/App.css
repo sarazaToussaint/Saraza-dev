@@ -382,4 +382,8 @@ button {
   .nav-links li:hover {
     background-color: #eee;
   }
+
+  .nav-links.expanded ul {
+    display: block;
+  }
 }
