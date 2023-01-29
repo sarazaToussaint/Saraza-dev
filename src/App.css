@@ -12,7 +12,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   gap: 2rem;
   padding: 0 10rem;
   background-color: #000;
@@ -29,9 +29,10 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
-  top: 50%;
   right: 25px;
-  transform: translateY(-50%);
+
+  /* top: 50%;
+  transform: translateY(-50%); */
   display: none;
 }
 
