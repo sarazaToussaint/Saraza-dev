@@ -29,7 +29,10 @@ export default function NavaBar() {
           />
         </svg>
       </button>
-      <div className="nav-links">
+      <div className={
+        isNavExpanded ? 'nav-links expanded' : 'nav-links'
+      }
+      >
         <ul>
           <li className="active">
             <Link to="/">Home</Link>
