@@ -357,7 +357,6 @@ button {
   }
 
   .nav-links ul {
-    /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
     position: absolute;
     top: 90px;
     left: 0;
