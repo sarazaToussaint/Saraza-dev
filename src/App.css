@@ -386,4 +386,10 @@ button {
   .nav-links.expanded ul {
     display: block;
   }
+
+  .site-title {
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: -143px;
+  }
 }
