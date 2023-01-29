@@ -368,7 +368,7 @@ button {
     display: block;
   }
 
-  .nav-links li {
+  .nav-links ul li {
     text-align: center;
     margin: auto;
   }
