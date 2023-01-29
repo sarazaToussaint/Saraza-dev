@@ -32,7 +32,7 @@ body {
   top: 50%;
   right: 25px;
   transform: translateY(-50%);
-  display: block;
+  display: none;
 }
 
 .hamburger:hover {
