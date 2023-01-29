@@ -1,14 +1,21 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { NavLink as Link } from 'react-router-dom';
 
 export default function NavaBar() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className="nav">
       <h1 className="site-title">
         Saraza
         <span>.dev</span>
       </h1>
-      <button type="button" className="hamburger">
+      <button
+        type="button"
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
