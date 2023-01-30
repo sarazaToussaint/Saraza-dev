@@ -29,7 +29,7 @@ const Contact = () => (
         </div>
       </div>
 
-      <div>
+      <div className="form-container">
         <form></form>
       </div>
     </div>
