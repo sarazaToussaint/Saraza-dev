@@ -38,6 +38,9 @@ const Contact = () => (
           <div>
             <input type="text" placeholder="subject" />
           </div>
+          <div>
+            <textarea type="text" placeholder="Your message" />
+          </div>
         </form>
       </div>
     </div>
