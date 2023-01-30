@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => (
-  <div>
+  <>
     <h1 className="contact">
       Not yet implemented
     </h1>
@@ -25,7 +25,7 @@ const Contact = () => (
         </g>
       </svg>
     </div>
-  </div>
+  </>
 );
 
 export default Contact;
