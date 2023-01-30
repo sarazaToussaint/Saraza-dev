@@ -1,0 +1,8 @@
+.contactContainer {
+  color: #fff;
+}
+
+.contactDetails {
+  display: flex;
+  justify-content: center;
+}
