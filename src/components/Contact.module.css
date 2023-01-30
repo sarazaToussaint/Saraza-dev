@@ -1,8 +1,17 @@
 .contactContainer {
-  color: #fff;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
 }
 
 .contactDetails {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
