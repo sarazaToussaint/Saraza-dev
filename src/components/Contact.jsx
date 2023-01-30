@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => (
   <>
     <h1 className="contact">
-      Not yet implemented
+      Contact
     </h1>
     <div className="waves-container">
       <svg
