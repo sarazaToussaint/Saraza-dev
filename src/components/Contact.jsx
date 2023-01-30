@@ -30,7 +30,12 @@ const Contact = () => (
       </div>
 
       <div className="form-container">
-        <form></form>
+        <form>
+          <div>
+            <input type="text" placeholder="Full name" />
+            <input type="text" placeholder="Email" />
+          </div>
+        </form>
       </div>
     </div>
     <div className="waves-container">
