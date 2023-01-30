@@ -15,3 +15,13 @@
   flex-direction: column;
   text-align: center;
 }
+
+.formContainer {
+  margin: auto;
+  background-color: brown;
+  padding: 20px;
+}
+
+.firstRow {
+  gap: 10px;
+}
