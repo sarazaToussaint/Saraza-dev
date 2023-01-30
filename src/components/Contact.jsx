@@ -5,6 +5,34 @@ const Contact = () => (
     <h1 className="contact">
       Contact
     </h1>
+    <div className="contact-container">
+      <div className="contact-details">
+        <div>
+          <span>Logo</span>
+          <h4>Phone</h4>
+          <h6>(+250) 737826799</h6>
+        </div>
+        <div>
+          <span>Logo</span>
+          <h4>Location</h4>
+          <h6>Rwanda/Kigali Kg 500 St</h6>
+        </div>
+        <div>
+          <span>Logo</span>
+          <h4>Email</h4>
+          <h6>tmsaraza@gmail.com</h6>
+        </div>
+        <div>
+          <span>Logo</span>
+          <h4>Website</h4>
+          <h6>(+250) 737826799</h6>
+        </div>
+      </div>
+
+      <div>
+        <form></form>
+      </div>
+    </div>
     <div className="waves-container">
       <svg
         className="waves"
