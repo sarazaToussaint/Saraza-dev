@@ -8,22 +8,22 @@ const Contact = () => (
     </h1>
     <div className={classes.contactContainer}>
       <div className={classes.contactDetails}>
-        <div>
+        <div className={classes.info}>
           <span>Logo</span>
           <div>Phone</div>
           <p>(+250) 737826799</p>
         </div>
-        <div>
+        <div className={classes.info}>
           <span>Logo</span>
           <div>Location</div>
           <p>Rwanda/Kigali Kg 500 St</p>
         </div>
-        <div>
+        <div className={classes.info}>
           <span>Logo</span>
           <div>Email</div>
           <p>tmsaraza@gmail.com</p>
         </div>
-        <div>
+        <div className={classes.info}>
           <span>Logo</span>
           <div>Website</div>
           <p>(+250) 737826799</p>
