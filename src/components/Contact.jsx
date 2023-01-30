@@ -30,14 +30,14 @@ const Contact = () => (
         </div>
       </div>
 
-      <div className="formContainer">
+      <div className={classes.formContainer}>
         <form>
-          <div>
-            <input type="text" placeholder="Full name" />
-            <input type="email" placeholder="Email" />
+          <div className={classes.firstRow}>
+            <input type="text" placeholder="Full name" size="30" />
+            <input type="email" placeholder="Email" size="30" />
           </div>
           <div>
-            <input type="text" placeholder="subject" />
+            <input type="text" placeholder="subject" size="74" />
           </div>
           <div>
             <textarea type="text" placeholder="Your message" />
