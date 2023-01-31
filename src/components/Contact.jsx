@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegEnvelope, FaGlobe } from 'react-icons/fa';
+import { FaRegEnvelope, FaGlobe, FaMapMarkerAlt } from 'react-icons/fa';
 import classes from './Contact.module.css';
 
 const Contact = () => (
@@ -15,7 +15,7 @@ const Contact = () => (
           <p>(+250) 737826799</p>
         </div>
         <div className={classes.info}>
-          <span>Logo</span>
+          <span><FaMapMarkerAlt /></span>
           <div>Location</div>
           <p>Rwanda/Kigali Kg 500 St</p>
         </div>
