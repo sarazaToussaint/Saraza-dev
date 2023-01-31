@@ -34,6 +34,7 @@ input {
 
 .firstRow input {
   width: 50%;
+  outline: none;
 }
 
 .formContainer form {
@@ -41,9 +42,14 @@ input {
   background-color: blue;
 }
 
+form button {
+  justify-self: center;
+}
+
 .subject,
 textarea {
   width: 100%;
   margin-bottom: 10px;
   border-radius: 1rem;
+  outline: none;
 }
