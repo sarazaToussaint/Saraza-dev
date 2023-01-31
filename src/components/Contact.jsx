@@ -29,7 +29,7 @@ const Contact = () => (
         <div className={classes.info}>
           <span><FaGlobe /></span>
           <div>Website</div>
-          <p>(+250) 737826799</p>
+          <p>https://saraza.netlify.app/</p>
         </div>
       </div>
 
