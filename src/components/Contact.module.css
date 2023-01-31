@@ -24,6 +24,7 @@
 
 .firstRow {
   gap: 10px;
+  width: 100%;
 }
 
 .formContainer form {
