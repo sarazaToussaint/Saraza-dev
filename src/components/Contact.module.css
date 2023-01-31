@@ -23,8 +23,11 @@
 }
 
 .firstRow {
-  gap: 10px;
   width: 100%;
+}
+
+.firstRow input {
+  width: 50%;
 }
 
 .formContainer form {
