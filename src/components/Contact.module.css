@@ -25,3 +25,8 @@
 .firstRow {
   gap: 10px;
 }
+
+.formContainer form {
+  width: 50rem;
+  background-color: blue;
+}
