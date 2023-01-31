@@ -40,6 +40,8 @@ input {
 .formContainer form {
   width: 50rem;
   background-color: blue;
+  margin: 0 auto;
+  display: block;
 }
 
 form button {
