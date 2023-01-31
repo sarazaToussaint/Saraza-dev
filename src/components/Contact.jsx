@@ -37,10 +37,10 @@ const Contact = () => (
             <input type="email" placeholder="Email" size="30" />
           </div>
           <div>
-            <input type="text" placeholder="subject" size="74" />
+            <input type="text" placeholder="subject" size="64" />
           </div>
           <div>
-            <textarea type="text" placeholder="Your message" />
+            <textarea type="text" placeholder="Your message" rows="5" />
           </div>
           <button type="submit">Send Message</button>
         </form>
