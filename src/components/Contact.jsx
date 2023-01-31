@@ -1,10 +1,54 @@
 import React from 'react';
+import {
+  FaRegEnvelope, FaGlobe, FaMapMarkerAlt, FaPhoneVolume,
+} from 'react-icons/fa';
+import classes from './Contact.module.css';
 
 const Contact = () => (
-  <div>
+  <>
     <h1 className="contact">
-      Not yet implemented
+      Contact
     </h1>
+    <div className={classes.contactContainer}>
+      <div className={classes.contactDetails}>
+        <div className={classes.info}>
+          <span><FaPhoneVolume /></span>
+          <div>Phone</div>
+          <p>(+250) 737826799</p>
+        </div>
+        <div className={classes.info}>
+          <span><FaMapMarkerAlt /></span>
+          <div>Location</div>
+          <p>Rwanda/Kigali Kg 500 St</p>
+        </div>
+        <div className={classes.info}>
+          <span><FaRegEnvelope /></span>
+          <div>Email</div>
+          <p>tmsaraza@gmail.com</p>
+        </div>
+        <div className={classes.info}>
+          <span><FaGlobe /></span>
+          <div>Website</div>
+          <p>https://saraza.netlify.app/</p>
+        </div>
+      </div>
+
+      <div className={classes.formContainer}>
+        <form>
+          <div className={classes.firstRow}>
+            <input type="text" placeholder="Full name" size="30" />
+            <input type="email" placeholder="Email" size="30" />
+          </div>
+          <div>
+            <input className={classes.subject} type="text" placeholder="subject" size="64" />
+          </div>
+          <div>
+            <textarea type="text" placeholder="Your message" rows="5" cols="66" />
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
     <div className="waves-container">
       <svg
         className="waves"
@@ -25,7 +69,7 @@ const Contact = () => (
         </g>
       </svg>
     </div>
-  </div>
+  </>
 );
 
 export default Contact;
