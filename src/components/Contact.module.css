@@ -18,7 +18,8 @@
 
 .formContainer {
   margin: auto;
-  background-color: brown;
+
+  /* background-color: brown; */
   padding: 20px;
 }
 
@@ -39,7 +40,8 @@ input {
 
 .formContainer form {
   width: 50rem;
-  background-color: blue;
+
+  /* background-color: blue; */
   margin: 0 auto;
   display: block;
 }
