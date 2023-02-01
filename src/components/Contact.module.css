@@ -37,8 +37,9 @@ input {
 }
 
 .firstRow input {
-  width: 50%;
+  width: 48.7%;
   outline: none;
+  margin: 0 5px;
 }
 
 .formContainer form {
@@ -58,6 +59,7 @@ textarea {
   margin-bottom: 10px;
   border-radius: 1rem;
   outline: none;
+  padding-left: 10px;
 }
 
 .formContainer .formTitle {
