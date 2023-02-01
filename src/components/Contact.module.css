@@ -71,3 +71,10 @@ textarea {
 .contactContainer h2 {
   text-align: center;
 }
+
+.contactContainer h2 div {
+  width: 50px;
+  height: 1px;
+  background-color: brown;
+  text-align: center;
+}
