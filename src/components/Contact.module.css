@@ -2,7 +2,7 @@
   background-color: white;
   width: 80%;
   margin: auto;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .contactDetails {
@@ -37,7 +37,7 @@ input {
 }
 
 .firstRow input {
-  width: 48.8%;
+  width: 48.7%;
   outline: none;
   margin: 0 5px;
 }
