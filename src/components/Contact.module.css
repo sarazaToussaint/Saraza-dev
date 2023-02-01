@@ -28,6 +28,7 @@
 input {
   height: 2rem;
   border-radius: 1rem;
+  padding-left: 10px;
 }
 
 .firstRow {
@@ -62,4 +63,8 @@ textarea {
 .formContainer .formTitle {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.contactContainer h2 {
+  text-align: center;
 }
