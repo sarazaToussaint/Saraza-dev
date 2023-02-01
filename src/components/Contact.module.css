@@ -58,3 +58,8 @@ textarea {
   border-radius: 1rem;
   outline: none;
 }
+
+form .formTitle {
+  margin: 0 auto;
+  display: block;
+}
