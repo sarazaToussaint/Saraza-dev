@@ -59,7 +59,6 @@ textarea {
   outline: none;
 }
 
-form .formTitle {
-  margin: 0 auto;
-  display: block;
+.formContainer .formTitle {
+  text-align: center;
 }
