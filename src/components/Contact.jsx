@@ -9,7 +9,7 @@ const Contact = () => (
     <div className={classes.contactContainer}>
       <h2>
         Contact me
-        <span />
+        <div />
       </h2>
       <div className={classes.contactDetails}>
         <div className={classes.info}>
