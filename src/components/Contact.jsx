@@ -7,7 +7,10 @@ import classes from './Contact.module.css';
 const Contact = () => (
   <>
     <div className={classes.contactContainer}>
-      <h2>Contact me</h2>
+      <h2>
+        Contact me
+        <span />
+      </h2>
       <div className={classes.contactDetails}>
         <div className={classes.info}>
           <span><FaPhoneVolume /></span>
