@@ -6,9 +6,6 @@ import classes from './Contact.module.css';
 
 const Contact = () => (
   <>
-    <h1 className="contact">
-      Contact
-    </h1>
     <div className={classes.contactContainer}>
       <div className={classes.contactDetails}>
         <div className={classes.info}>
