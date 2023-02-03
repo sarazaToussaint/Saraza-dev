@@ -10,7 +10,6 @@
 .contactDetails {
   display: flex;
   justify-content: space-around;
-  padding: 0 3rem;
 }
 
 .info {
