@@ -1,6 +1,6 @@
 .contactContainer {
   background-color: white;
-  border-radius: 50px;
+  border-bottom-right-radius: 100px;
   width: 75%;
   margin: auto;
   padding: 8px 0;
