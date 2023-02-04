@@ -34,7 +34,7 @@ const Contact = () => (
         </div>
       </div>
       <div className={classes.formContainer}>
-        <div className={classes.formTitle}>Feel free to send me an email!</div>
+        <div className={classes.formTitle}>Send me an email!</div>
         <form>
           <div className={classes.firstRow}>
             <input type="text" placeholder="Full name" size="30" />
