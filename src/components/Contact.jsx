@@ -38,7 +38,7 @@ const Contact = () => (
         <form>
           <div className={classes.firstRow}>
             <input type="text" placeholder="Full name" size="30" />
-            <input type="email" placeholder="Email" size="20" />
+            <input type="email" placeholder="Email" size="30" />
           </div>
           <div>
             <input className={classes.subject} type="text" placeholder="subject" size="64" />
