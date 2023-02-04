@@ -20,7 +20,7 @@ const Contact = () => (
         <div className={classes.info}>
           <span><FaMapMarkerAlt /></span>
           <div>Location</div>
-          <p>Rwanda Kigali 500</p>
+          <p>Rwanda Kigali</p>
         </div>
         <div className={classes.info}>
           <span><FaRegEnvelope /></span>
