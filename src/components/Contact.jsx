@@ -33,7 +33,6 @@ const Contact = () => (
           <p>saraza.netlify.app</p>
         </div>
       </div>
-
       <div className={classes.formContainer}>
         <div className={classes.formTitle}>Send me an email!</div>
         <form>
