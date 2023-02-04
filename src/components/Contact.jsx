@@ -29,7 +29,7 @@ const Contact = () => (
         </div>
         <div className={classes.info}>
           <span><FaGlobe /></span>
-          <div>Website</div>
+          <div>Websit</div>
           <p>saraza.netlify.app</p>
         </div>
       </div>
