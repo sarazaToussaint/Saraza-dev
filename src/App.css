@@ -399,4 +399,8 @@ button {
   .btn {
     margin-bottom: 2.5rem;
   }
+
+  .dev-img {
+    margin-left: -35px;
+  }
 }
