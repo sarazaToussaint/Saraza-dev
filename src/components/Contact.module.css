@@ -49,6 +49,8 @@ input {
   width: 48.7%;
   outline: none;
   margin: 0 5px;
+  background-color: #1d1c1c;
+  color: #fff;
 }
 
 .formContainer form {
@@ -76,6 +78,8 @@ textarea {
   border-radius: 1rem;
   outline: none;
   padding-left: 10px;
+  background-color: #1d1c1c;
+  color: #fff;
 }
 
 .formContainer .formTitle {
