@@ -107,6 +107,7 @@
   .cardBtns {
     width: -moz-fit-content;
     width: fit-content;
+    height: 2.4rem;
     border: 1.5px solid #000;
     margin: 0 auto;
     border-radius: 20px;
