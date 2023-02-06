@@ -84,6 +84,8 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
   }
 
   .projectImg {
@@ -99,6 +101,6 @@
   .arrow {
     color: #fff;
     font-size: 2rem;
-    margin: 0 -3rem;
+    margin: 0 -3.5rem;
   }
 }
