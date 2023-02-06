@@ -116,6 +116,10 @@ textarea {
     flex-direction: column;
   }
 
+  .firstRow {
+    margin-bottom: -2px;
+  }
+
   .firstRow input {
     width: 100%;
   }
