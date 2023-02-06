@@ -399,10 +399,4 @@ button {
   .btn {
     margin-bottom: 2.5rem;
   }
-
-  .photo {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-  }
 }
