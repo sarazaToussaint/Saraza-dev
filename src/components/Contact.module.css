@@ -120,8 +120,16 @@ textarea {
     width: 100%;
   }
 
+  .firstRow > input {
+    margin-bottom: 10px;
+  }
+
   .subject,
   textarea {
     width: 100%;
+  }
+
+  form button {
+    margin-bottom: 2rem;
   }
 }
