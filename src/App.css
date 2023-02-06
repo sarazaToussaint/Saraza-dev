@@ -404,9 +404,3 @@ button {
     margin-left: -35px;
   }
 }
-
-@media screen and (max-width: 992px) {
-  .about-container {
-    margin-bottom: 2rem;
-  }
-}
