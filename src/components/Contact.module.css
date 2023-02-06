@@ -3,6 +3,8 @@
   width: 75%;
   margin: auto;
   padding: 4px 0;
+  border-radius: 20px;
+  z-index: 1;
 }
 
 .contactDetails {
