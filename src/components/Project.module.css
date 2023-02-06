@@ -103,4 +103,12 @@
     font-size: 2rem;
     margin: 0 -3.5rem;
   }
+
+  .cardBtns {
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 1.5px solid #000;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
 }
