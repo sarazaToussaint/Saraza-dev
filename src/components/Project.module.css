@@ -113,4 +113,9 @@
     margin: 0 auto;
     border-radius: 20px;
   }
+
+  .title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
 }
