@@ -99,3 +99,29 @@ textarea {
   background-color: #007bff;
   margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    width: 100%;
+  }
+
+  .formContainer form {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstRow input {
+    width: 80%;
+  }
+
+  .subject,
+  textarea {
+    width: 80%;
+  }
+}
