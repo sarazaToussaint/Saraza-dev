@@ -120,8 +120,9 @@
   }
 
   .my2 span {
-    margin-left: 10px;
-    font-weight: 700;
-    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
