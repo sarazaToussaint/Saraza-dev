@@ -1,10 +1,11 @@
 .contactContainer {
-  background-color: #fff;
+  background-color: rgba(78, 63, 63, 0.063);
   width: 75%;
   margin: auto;
   padding: 4px 0;
   border-radius: 20px;
   z-index: 1;
+  color: #fff;
 }
 
 .contactDetails {
