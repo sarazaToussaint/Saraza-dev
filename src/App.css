@@ -394,10 +394,10 @@ button {
     flex-direction: column;
     width: 100%;
     text-align: center;
+    justify-content: center;
+  }
 
-    /* margin: auto;
-    margin-top: 5rem;
-    gap: 40px;
-    max-width: 65%; */
+  .btn {
+    margin-bottom: 2.5rem;
   }
 }
