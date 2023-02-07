@@ -374,6 +374,8 @@ button {
     color: #fff;
     width: 100%;
     padding: 1.5rem 0;
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   .nav-links li:hover {
