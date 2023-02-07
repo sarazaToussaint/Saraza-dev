@@ -395,6 +395,11 @@ button {
     text-align: center;
   }
 
+  .home-container {
+    margin-bottom: 2.5rem;
+    margin-top: -45px;
+  }
+
   .btn {
     margin-bottom: 2.5rem;
   }
