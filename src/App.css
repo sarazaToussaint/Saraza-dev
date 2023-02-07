@@ -295,21 +295,6 @@ button {
   }
 }
 
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
-
-  .content {
-    height: 30vh;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-}
-
 .source {
   border-left: 1.5px solid #000;
   border-radius: 0 50rem 50rem 0;
@@ -344,6 +329,19 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .content {
+    height: 30vh;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
   .hamburger {
     display: block;
   }
