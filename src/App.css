@@ -400,14 +400,4 @@ button {
   .dev-img {
     margin-left: -35px;
   }
-
-  .source:hover {
-    background-color: #0693e3;
-    color: #fff;
-  }
-
-  .live:hover {
-    background-color: #0693e3;
-    color: #fff;
-  }
 }
