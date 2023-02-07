@@ -402,4 +402,8 @@ button {
   .photo {
     animation: slideInFromTop 1s ease-in;
   }
+
+  .bio {
+    animation: slideInFromBottom 1s ease-in;
+  }
 }
