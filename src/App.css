@@ -400,4 +400,8 @@ button {
   .dev-img {
     margin-left: -35px;
   }
+
+  .photo {
+    animation: slideInFromTop 1s ease-in;
+  }
 }
