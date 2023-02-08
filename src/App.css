@@ -109,9 +109,9 @@ button {
 .icon-container a {
   font-size: 2em;
   font-family: italic;
-  color: #000;
+  color: #fff;
   padding: 3px;
-  background-color: #fff;
+  background-color: #0693e3;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
@@ -125,7 +125,7 @@ button {
 }
 
 .icon-container a:hover {
-  color: #0693e3;
+  color: #fff;
 }
 
 .nav li a:hover {
