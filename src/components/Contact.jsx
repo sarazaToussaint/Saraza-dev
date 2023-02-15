@@ -88,6 +88,8 @@ const Contact = () => {
                 placeholder="Your message"
                 rows="3"
                 cols="66"
+                onChange={(e) => setData({ ...data, message: e.target.value })}
+                required
               />
             </div>
             <button type="submit">Send Message</button>
