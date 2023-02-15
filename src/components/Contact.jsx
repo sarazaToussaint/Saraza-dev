@@ -15,7 +15,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (data.fullname && data.email && data.object && data.message) {
-      fetch('https://formspree.io/f/mqknlo', {
+      fetch('https://formspree.io/f/mzboapoy', {
         method: 'POST',
         body: JSON.stringify({ data }),
         headers: { 'Content-Type': 'application/json' },
@@ -69,7 +69,7 @@ function Contact() {
         </div>
         <div className={classes.formContainer}>
           <div className={classes.formTitle}>Send me an email!</div>
-          <form onSubmit={handleSubmit} action="https://formspree.io/f/mqknl" method="post">
+          <form onSubmit={handleSubmit} action="https://formspree.io/f/mzboapoy" method="post">
             <div className={classes.firstRow}>
               <input
                 type="text"
