@@ -76,6 +76,7 @@ const Contact = () => {
                 placeholder="subject"
                 size="64"
                 onChange={(e) => setData({ ...data, object: e.target.value })}
+                required
               />
             </div>
             <div>
