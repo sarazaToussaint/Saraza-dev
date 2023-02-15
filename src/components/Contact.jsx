@@ -6,7 +6,9 @@ import classes from './Contact.module.css';
 
 const Contact = () => {
   const [data, setData] = useState({
-    
+    fullname: '',
+    object: '',
+    message: '',
   });
 
   return (
@@ -42,7 +44,7 @@ const Contact = () => {
           <div className={classes.formTitle}>Send me an email!</div>
           <form>
             <div className={classes.firstRow}>
-              <input type="text" name="fullname" id="fullname" placeholder="Full name" size="30" />
+              <input type="text" name="fullname" id="fullname" value={data.fullname} placeholder="Full name" size="30" />
               <input type="email" name="email" id="email" placeholder="Email" size="30" />
             </div>
             <div>
