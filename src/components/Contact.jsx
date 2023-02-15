@@ -67,7 +67,16 @@ const Contact = () => {
               />
             </div>
             <div>
-              <input className={classes.subject} type="text" value={data.object} name="object" id="object" placeholder="subject" size="64" />
+              <input
+                className={classes.subject}
+                type="text"
+                value={data.object}
+                name="object"
+                id="object"
+                placeholder="subject"
+                size="64"
+                onChange={(e) => setData({ ...data, object: e.target.value })}
+              />
             </div>
             <div>
               <textarea type="text" name="message" id="message" value={data.message} placeholder="Your message" rows="3" cols="66" />
