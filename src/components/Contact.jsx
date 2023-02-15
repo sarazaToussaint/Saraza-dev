@@ -16,7 +16,7 @@ const Contact = () => {
     <>
       <div className={classes.contactContainer}>
         <h2>
-          Contact me
+          Get in touch
           <div />
         </h2>
         <div className={classes.contactDetails}>
