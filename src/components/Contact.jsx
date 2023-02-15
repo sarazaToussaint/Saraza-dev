@@ -52,7 +52,7 @@ const Contact = () => {
                 value={data.fullname}
                 placeholder="Full name"
                 size="30"
-                onChange={(e) => setData({ ...data, message: e.target.value })}
+                onChange={(e) => setData({ ...data, fullname: e.target.value })}
                 required
               />
               <input type="email" name="email" id="email" value={data.email} placeholder="Email" size="30" />
