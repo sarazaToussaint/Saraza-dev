@@ -26,10 +26,6 @@ function Contact() {
 
   alert(`Your message sent succsufully, Thank you ${capitalize(data.fullname)} !!`); // eslint-disable-line
 
-    // setTimeout(() => {
-    //   navigate('/');
-    // }, 2000);
-
     setData({
       fullname: '',
       email: '',
