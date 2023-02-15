@@ -46,7 +46,7 @@ const Contact = () => {
           <form action="https://formspree.io/f/mqknlobw" method="post">
             <div className={classes.firstRow}>
               <input type="text" name="fullname" id="fullname" value={data.fullname} placeholder="Full name" size="30" />
-              <input type="email" name="email" id="email" placeholder="Email" size="30" />
+              <input type="email" name="email" id="email" value={data.email} placeholder="Email" size="30" />
             </div>
             <div>
               <input className={classes.subject} type="text" name="object" id="object" placeholder="subject" size="64" />
