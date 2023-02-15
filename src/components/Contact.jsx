@@ -4,13 +4,23 @@ import {
 } from 'react-icons/fa';
 import classes from './Contact.module.css';
 
-const Contact = () => {
+ function Contact () {
   const [data, setData] = useState({
     fullname: '',
     email: '',
     object: '',
     message: '',
   });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (data.fullname && data.email && data.object && data.message) {
+      fetch('https://formspree.io/f/mqknlo', {
+        method: 'POST',
+        body: JSON.stringify({ data }),
+        headers: { 'Content-Type': 'application/json' },
+      }).then((res) => res.json()).catch((error) => console.log(error)); // eslint-disable-line
+  } 
 
   return (
     <>
@@ -43,7 +53,7 @@ const Contact = () => {
         </div>
         <div className={classes.formContainer}>
           <div className={classes.formTitle}>Send me an email!</div>
-          <form action="https://formspree.io/f/mqknlobw" method="post">
+          <form action="https://formspree.io/f/mqknl" method="post">
             <div className={classes.firstRow}>
               <input
                 type="text"
@@ -118,6 +128,6 @@ const Contact = () => {
       </div>
     </>
   );
-};
+}
 
 export default Contact;
