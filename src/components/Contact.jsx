@@ -52,7 +52,7 @@ const Contact = () => {
               <input className={classes.subject} type="text" name="object" id="object" placeholder="subject" size="64" />
             </div>
             <div>
-              <textarea type="text" placeholder="Your message" rows="3" cols="66" />
+              <textarea type="text" name="message" id="message" placeholder="Your message" rows="3" cols="66" />
             </div>
             <button type="submit">Send Message</button>
           </form>
