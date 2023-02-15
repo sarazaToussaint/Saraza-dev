@@ -43,7 +43,7 @@ const Contact = () => {
         </div>
         <div className={classes.formContainer}>
           <div className={classes.formTitle}>Send me an email!</div>
-          <form>
+          <form action="https://formspree.io/f/mqknlobw" method="post">
             <div className={classes.firstRow}>
               <input type="text" name="fullname" id="fullname" value={data.fullname} placeholder="Full name" size="30" />
               <input type="email" name="email" id="email" placeholder="Email" size="30" />
