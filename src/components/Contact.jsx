@@ -7,6 +7,7 @@ import classes from './Contact.module.css';
 const Contact = () => {
   const [data, setData] = useState({
     fullname: '',
+    email: '',
     object: '',
     message: '',
   });
