@@ -4,7 +4,7 @@ import {
 } from 'react-icons/fa';
 import classes from './Contact.module.css';
 
- function Contact () {
+function Contact() {
   const [data, setData] = useState({
     fullname: '',
     email: '',
@@ -20,7 +20,23 @@ import classes from './Contact.module.css';
         body: JSON.stringify({ data }),
         headers: { 'Content-Type': 'application/json' },
       }).then((res) => res.json()).catch((error) => console.log(error)); // eslint-disable-line
-  } 
+    }
+
+    const capitalize = ([first = '', ...rest]) => [first.toUpperCase(), ...rest].join('');
+
+  alert(`Your message sent succsufully, Thank you ${capitalize(data.fullname)} !!`); // eslint-disable-line
+
+    // setTimeout(() => {
+    //   navigate('/');
+    // }, 2000);
+
+    setData({
+      fullname: '',
+      email: '',
+      object: '',
+      message: '',
+    });
+  };
 
   return (
     <>
@@ -53,7 +69,7 @@ import classes from './Contact.module.css';
         </div>
         <div className={classes.formContainer}>
           <div className={classes.formTitle}>Send me an email!</div>
-          <form action="https://formspree.io/f/mqknl" method="post">
+          <form onSubmit={handleSubmit} action="https://formspree.io/f/mqknl" method="post">
             <div className={classes.firstRow}>
               <input
                 type="text"
