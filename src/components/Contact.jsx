@@ -55,7 +55,14 @@ const Contact = () => {
                 onChange={(e) => setData({ ...data, fullname: e.target.value })}
                 required
               />
-              <input type="email" name="email" id="email" value={data.email} placeholder="Email" size="30" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value={data.email}
+                placeholder="Email"
+                size="30"
+              />
             </div>
             <div>
               <input className={classes.subject} type="text" value={data.object} name="object" id="object" placeholder="subject" size="64" />
