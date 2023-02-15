@@ -45,7 +45,16 @@ const Contact = () => {
           <div className={classes.formTitle}>Send me an email!</div>
           <form action="https://formspree.io/f/mqknlobw" method="post">
             <div className={classes.firstRow}>
-              <input type="text" name="fullname" id="fullname" value={data.fullname} placeholder="Full name" size="30" />
+              <input
+                type="text"
+                name="fullname"
+                id="fullname"
+                value={data.fullname}
+                placeholder="Full name"
+                size="30"
+                onChange={(e) => setData({ ...data, message: e.target.value })}
+                required
+              />
               <input type="email" name="email" id="email" value={data.email} placeholder="Email" size="30" />
             </div>
             <div>
