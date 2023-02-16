@@ -24,7 +24,7 @@ function Contact() {
 
     const capitalize = ([first = '', ...rest]) => [first.toUpperCase(), ...rest].join('');
 
-  alert(`Your message sent succsufully, Thank you ${capitalize(data.fullname)} !!`); // eslint-disable-line
+  alert(`Your message has sent succsufully, Thank you ${capitalize(data.fullname)} !!`); // eslint-disable-line
 
     setData({
       fullname: '',
