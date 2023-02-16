@@ -97,7 +97,7 @@ function Contact() {
                 id="object"
                 placeholder="subject"
                 size="64"
-                onChange={(e) => setata({ ...data, object: e.target.value })}
+                onChange={(e) => setData({ ...data, object: e.target.value })}
                 required
               />
             </div>
