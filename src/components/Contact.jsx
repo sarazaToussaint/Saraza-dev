@@ -18,7 +18,7 @@ function Contact() {
       fetch('https://formspree.io/f/mzboapoy', {
         method: 'POST',
         body: JSON.stringify({ data }),
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/' },
       }).then((res) => res.json()).catch((error) => console.log(error)); // eslint-disable-line
     }
 
