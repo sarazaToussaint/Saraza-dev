@@ -9,7 +9,7 @@ function Contact() {
     fullname: '',
     email: '',
     object: '',
-    message: '',
+    message: ''
   });
 
   const handleSubmit = (e) => {
