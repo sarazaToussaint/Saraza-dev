@@ -11,7 +11,7 @@ export default function NavaBar() {
       </h1>
       <button
         type="button"
-        className="hamburger"
+        className="hamburge"
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
