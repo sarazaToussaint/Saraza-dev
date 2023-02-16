@@ -27,7 +27,7 @@ function Contact() {
   alert(`Your message has sent succsufully, Thank you ${capitalize(data.fullname)} !!`); // eslint-disable-line
 
     setData({
-      fullname: '',
+      fullnam: '',
       email: '',
       object: '',
       message: '',
