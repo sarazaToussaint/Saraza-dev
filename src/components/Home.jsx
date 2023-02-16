@@ -18,7 +18,7 @@ const Home = () => (
         now open to fulltime opportunities. I have a demonstrated history
         of both leading and working in teams, along with good time management
         skills. I enjoy learning new skills and am constantly expanding my
-        current abilities.
+        current abil.
       </p>
       <div className="icon-container">
         <a href="https://www.linkedin.com/in/toussaintsaraza/" target="_blank" rel="noreferrer">
