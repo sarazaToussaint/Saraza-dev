@@ -31,7 +31,7 @@ const About = () => {
             in Computer Science from Kigali Independent University.
             I have worked on a variety of fullstack projects when studied at Microverse and
             now open to fulltime opportunities. I have a demonstrated history
-            of  leading and working in teams, along with good time management skills.
+            of both leading and working in teams, along with good time management skills.
           </p>
           <button type="button" onClick={() => setShowModal(true)} className="btn btn-primary">See More</button>
         </div>
