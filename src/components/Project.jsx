@@ -42,7 +42,7 @@ const Project = () => (
                 </div>
                 <ul className={styles.tools}>
                   {project.tools.map((tool) => (
-                    <li key={tool.id}>{tool.lag}</li>
+                    <li key={tool.id}>{tool.lang}</li>
                   ))}
                 </ul>
                 <div>
