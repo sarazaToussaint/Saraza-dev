@@ -45,7 +45,7 @@ function Contact() {
           <div className={classes.info}>
             <span><FaPhoneVolume /></span>
             <div>Phone</div>
-            <p>(+250) 737826799</p>
+            <p>(+250) 737826749</p>
           </div>
           <div className={classes.info}>
             <span><FaMapMarkerAlt /></span>
