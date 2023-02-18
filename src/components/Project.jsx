@@ -50,7 +50,7 @@ const Project = () => (
                     <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn live">
                       live
                       {' '}
-                      <GiMeshNetwo />
+                      <GiMeshNetwork />
                     </a>
                     <a href={project.sourceLink} target="_blank" rel="noreferrer" className="btn source">
                       source
