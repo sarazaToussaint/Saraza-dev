@@ -14,7 +14,7 @@
 
 .info {
   display: flex;
-  flex-direction: column;
+  flex-direction: colum;
   text-align: center;
   font-style: italic;
 }
