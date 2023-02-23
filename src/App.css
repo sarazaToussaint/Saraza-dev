@@ -138,8 +138,8 @@ button {
   animation: slideInFromBottom 1s ease-in;
 }
 
-.container h1 span {
-  color: #0693e3;
+.myDiv {
+  color: red;
 }
 
 .container p {
