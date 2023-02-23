@@ -38,7 +38,7 @@ function Contact() {
     <>
       <div className={classes.contactContainer}>
         <h2>
-          Get in touch
+          Get touch
           <div />
         </h2>
         <div className={classes.contactDetails}>
