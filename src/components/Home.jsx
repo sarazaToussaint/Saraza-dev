@@ -9,7 +9,7 @@ const Home = () => (
     <div className="container home-container">
       <h1 className="home-title">
         TOUSSAINT
-        <span className="myDiv"> SARAZA</span>
+        <p className="myDiv"> SARAZA</p>
       </h1>
       <p>
         I am a self-motivated and goal orientated individual with a degree
