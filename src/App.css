@@ -140,10 +140,6 @@ button {
   animation: slideInFromBottom 1s ease-in;
 }
 
-.myDiv {
-  color: red;
-}
-
 .container p {
   font-size: 17px;
   font-weight: 300;
@@ -338,13 +334,9 @@ button {
   animation: slideInFromBottom 1s ease-in;
 }
 
-/* .mydiv {
-  width:100%;
-  height:100%;
-  color:black;
-  font-weight:bold;
+.myDiv {
   animation: myanimation 10s infinite;
-} */
+}
 
 @keyframes myanimation {
   0% { background-color: #0693e3; }
