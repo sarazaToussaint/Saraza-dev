@@ -37,9 +37,9 @@ body {
   background-color: #000;
 }
 
-.nav h1 span {
+/* .nav h1 span {
   color: #0693e3;
-}
+} */
 
 .site-title {
   font-size: 30px;
@@ -86,7 +86,9 @@ button {
   display: block;
   border-radius: 30px;
   padding: 5px 20px;
-  background-color: #0693e3;
+
+  /* background-color: #0693e3; */
+
   color: #fff;
   font-size: 17px;
 }
