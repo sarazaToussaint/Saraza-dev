@@ -13,7 +13,7 @@ export default function NavaBar() {
         type="button"
         className="hamburger"
         onClick={() => {
-          setIsNavExpanded(isNavExpanded);
+          setIsNavExpanded(!isNavExpanded);
         }}
       >
         <svg
