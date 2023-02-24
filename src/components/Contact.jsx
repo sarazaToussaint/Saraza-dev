@@ -110,7 +110,7 @@ function Contact() {
                 placeholder="Your message"
                 rows="3"
                 cols="66"
-                onChange={(e) => setDa({ ...data, message: e.target.value })}
+                onChange={(e) => setData({ ...data, message: e.target.value })}
                 required
               />
             </div>
