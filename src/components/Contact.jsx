@@ -64,7 +64,7 @@ function Contact() {
           </div>
         </div>
         <div className={classes.formContainer}>
-          <div className={classes.formTitle}>Send me an email!!</div>
+          <div className={classes.formTitle}>Send me an email</div>
           <form onSubmit={handleSubmit} action="https://formspree.io/f/mzboapoy" method="post">
             <div className={classes.firstRow}>
               <input
