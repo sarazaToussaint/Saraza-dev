@@ -50,7 +50,7 @@ function Contact() {
           <div className={classes.info}>
             <span><FaMapMarkerAlt /></span>
             <div>Location</div>
-            <p>Rwanda Kigali 50</p>
+            <p>Rwanda Kigali 50 St</p>
           </div>
           <div className={classes.info}>
             <span><FaRegEnvelope /></span>
