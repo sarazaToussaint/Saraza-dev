@@ -95,7 +95,7 @@ function Contact() {
                 value={data.object}
                 name="object"
                 id="object"
-                placeholder="subject"
+                placeholder="subje"
                 size="64"
                 onChange={(e) => setData({ ...data, object: e.target.value })}
                 required
