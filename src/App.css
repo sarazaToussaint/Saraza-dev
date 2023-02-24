@@ -339,7 +339,7 @@ button {
 }
 
 @keyframes myanimation {
-  0% { background-color: #0693e3; }
+  0% { background-color: #0693e9; }
   25% { background-color: yellow; }
   50% { background-color: green; }
   75% { background-color: brown; }
