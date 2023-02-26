@@ -109,7 +109,7 @@ function Contact() {
                 value={data.message}
                 placeholder="Your message"
                 rows="3"
-                cols="69"
+                cols="66"
                 onChange={(e) => setData({ ...data, message: e.target.value })}
                 required
               />
