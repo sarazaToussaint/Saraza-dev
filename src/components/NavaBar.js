@@ -30,7 +30,7 @@ export default function NavaBar() {
         </svg>
       </button>
       <div className={
-        isNavExpanded ? 'nav-links expanded' : 'nav-link'
+        isNavExpanded ? 'nav-links expanded' : 'nav-links'
       }
       >
         <ul>
