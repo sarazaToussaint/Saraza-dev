@@ -7,7 +7,7 @@ export default function NavaBar() {
     <nav className="nav">
       <h1 className="site-title">
         Saraza
-        <span className="myDiv">.dev</span>
+        <span className="mydiv">.dev</span>
       </h1>
       <button
         type="button"
