@@ -339,11 +339,11 @@ button {
 }
 
 @keyframes myanimation {
-  0% { background-color: #0693e3; }
-  25% { background-color: yellow; }
-  50% { background-color: green; }
-  75% { background-color: brown; }
-  100% { background-color: red; }
+  0% { color: #0693e3; }
+  25% { color: yellow; }
+  50% { color: green; }
+  75% { color: brown; }
+  100% { color: red; }
 }
 
 @media screen and (max-width: 768px) {
