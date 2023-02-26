@@ -107,7 +107,7 @@ function Contact() {
                 name="message"
                 id="message"
                 value={data.message}
-                placeholder="Your message"
+                placeholder="your message"
                 rows="3"
                 cols="66"
                 onChange={(e) => setData({ ...data, message: e.target.value })}
