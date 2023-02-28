@@ -43,22 +43,22 @@ function Contact() {
         </h2>
         <div className={classes.contactDetails}>
           <div className={classes.info}>
-            <span><FaPhoneVolume /></span>
+            <span className="myDiv"><FaPhoneVolume /></span>
             <div>Phone</div>
             <p>(+250) 737826799</p>
           </div>
           <div className={classes.info}>
-            <span><FaMapMarkerAlt /></span>
+            <span className="myDiv"><FaMapMarkerAlt /></span>
             <div>Location</div>
             <p>Rwanda Kigali 50 St</p>
           </div>
           <div className={classes.info}>
-            <span><FaRegEnvelope /></span>
+            <span className="myDiv"><FaRegEnvelope /></span>
             <div>Email</div>
             <p>tmsaraza@gmail.com</p>
           </div>
           <div className={classes.info}>
-            <span><FaGlobe /></span>
+            <span className="myDiv"><FaGlobe /></span>
             <div>Website</div>
             <p>saraza.netlify.app</p>
           </div>
@@ -114,7 +114,7 @@ function Contact() {
                 required
               />
             </div>
-            <button type="submit">Send Message</button>
+            <button type="submit" className="myBtn">Send Message</button>
           </form>
         </div>
       </div>
