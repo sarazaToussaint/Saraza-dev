@@ -123,7 +123,7 @@ const Skills = () => (
                 </div>
               </div>
               <p className="reco-letter">
-                <RiSingleQuotesL className="qout" />
+                <RiSingleQuotesL className="qoute" />
                 {' '}
                 {item.recommend}
                 <RiSingleQuotesR className="qoute" />
