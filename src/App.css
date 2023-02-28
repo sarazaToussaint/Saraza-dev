@@ -337,10 +337,10 @@ button {
 
 @keyframes myanimation {
   0% { color: #0693e3; }
-  25% { color: yellow; }
-  50% { color: green; }
-  75% { color: brown; }
-  100% { color: red; }
+  25% { color: #f1c40f; }
+  50% { color: #8e44ad; }
+  75% { color: #16a085; }
+  100% { color: #2ecc71; }
 }
 
 .myBtn {
@@ -349,10 +349,10 @@ button {
 
 @keyframes myAnimation {
   0% { background-color: #0693e3; }
-  25% { background-color: yellow; }
-  50% { background-color: green; }
-  75% { background-color: brown; }
-  100% { background-color: red; }
+  25% { background-color: #f1c40f; }
+  50% { background-color: #8e44ad; }
+  75% { background-color: #16a085; }
+  100% { background-color: #2ecc71; }
 }
 
 @media screen and (max-width: 768px) {
