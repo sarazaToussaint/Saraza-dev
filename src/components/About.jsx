@@ -33,7 +33,7 @@ const About = () => {
             now open to fulltime opportunities. I have a demonstrated history
             of both leading and working in teams, along with good time management skills.
           </p>
-          <button type="button" onClick={() => setShowModal(true)} className="btn btn-primary">See More</button>
+          <button type="button" onClick={() => setShowModal(true)} className="btn myBtn btn-primary">See More</button>
         </div>
 
         <Modal
@@ -93,7 +93,7 @@ const About = () => {
             <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
             <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
             <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-            <use xlinkHref="#gentle-wave" x="48" y="7" fill="#0693e3" />
+            <use xlinkHref="#gentle-wave" x="48" y="7" fill="#0693e3" className="myBtn" />
           </g>
         </svg>
       </div>
