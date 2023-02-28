@@ -98,6 +98,18 @@ textarea {
   margin: auto;
 }
 
+.myDiv {
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% { color: #0693e3; }
+  25% { color: #f1c40f; }
+  50% { color: #8e44ad; }
+  75% { color: #16a085; }
+  100% { color: #2ecc71; }
+}
+
 @media screen and (max-width: 768px) {
   .contactContainer {
     width: 100%;
