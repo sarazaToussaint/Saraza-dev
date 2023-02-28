@@ -21,13 +21,13 @@ const Home = () => (
         current.
       </p>
       <div className="icon-container">
-        <a href="https://www.linkedin.com/in/toussaintsaraza/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/toussaintsaraza/" target="_blank" rel="noreferrer" className="myDiv">
           <ImLinkedin2 />
         </a>
-        <a href="https://twitter.com/ToussaintSaraz1" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/ToussaintSaraz1" target="_blank" rel="noreferrer" className="myDiv">
           <VscTwitter />
         </a>
-        <a href="https://github.com/sarazaToussaint" target="_blank" rel="noreferrer">
+        <a href="https://github.com/sarazaToussaint" target="_blank" rel="noreferrer" className="myDiv">
           <VscGithubAlt />
         </a>
       </div>
