@@ -94,6 +94,9 @@ textarea {
 .contactContainer h2 div {
   width: 50px;
   height: 3px;
+
+  /* background-color: #007bff; */
+
   margin: auto;
 }
 
