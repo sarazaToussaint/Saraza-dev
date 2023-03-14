@@ -82,23 +82,28 @@
   color: #fff;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 15px;
+  padding: 10px;
   margin: 10px;
 }
 
 .skills {
+  width: fit-content;
   justify-content: center;
+  align-items: center;
   background-color: #333;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
-  animation: slideInFromLeft 1s ease-in;
+  padding: 10px;
+  margin: auto;
+  animation: slideInFromBottom 1s ease-in;
+  margin-top: 25px;
 }
 
 .flex {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 8rem);
   align-items: center;
+  justify-content: center;
 }
 
 .skills .flex {
@@ -108,6 +113,7 @@
 .skills .card h6 {
   font-size: 15px;
   margin-bottom: 10px;
+  margin-top: -2px;
 }
 
 .head {
