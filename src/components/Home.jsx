@@ -12,13 +12,11 @@ const Home = () => (
         <span className="myDiv"> SARAZA</span>
       </h1>
       <p>
-        I am a self-motivated and goal orientated individual with a degree
+        a self-motivated and goal oriented individual with a degree
         in Computer Science from Kigali Independent University.
-        I have worked on a variety of fullstack projects when studied at Microverse and
+        I have worked on a variety of fullstack projects when I studied at Microverse and I am
         now open to fulltime opportunities. I have a demonstrated history
-        of both leading and working in teams, along with good time management
-        skills. I enjoy learning new skills and am constantly expanding my
-        current.
+        of both leading and working in teams, along with good time management skills.
       </p>
       <div className="icon-container">
         <a href="https://www.linkedin.com/in/toussaintsaraza/" target="_blank" rel="noreferrer" className="myDiv">
