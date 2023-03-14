@@ -1,13 +1,13 @@
 import React from 'react';
-import Carousel from 'nuka-carousel';
-import { RiSingleQuotesR, RiSingleQuotesL } from 'react-icons/ri';
-import data from './database/data.json';
+// import Carousel from 'nuka-carousel';
+// import { RiSingleQuotesR, RiSingleQuotesL } from 'react-icons/ri';
+// import data from './database/data.json';
 import styles from './About.module.css';
 
 const Skills = () => (
   <>
     <div className={styles.skills}>
-      <h2>Programming Skills</h2>
+      {/* <h2>Programming Skills</h2> */}
       <div className={styles.flex}>
         <div className={styles.card}>
           <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
@@ -21,10 +21,10 @@ const Skills = () => (
           <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
           <h6>Boostrap</h6>
         </div>
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="" />
           <h6>Sass</h6>
-        </div>
+        </div> */}
         <div className={styles.card}>
           <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
           <h6>JavaScript</h6>
@@ -93,7 +93,7 @@ const Skills = () => (
       </div>
     </div>
 
-    <div className={styles.recommendation}>
+    {/* <div className={styles.recommendation}>
       <h2 className={styles.title}>People&apos;s Feedback</h2>
       <div className="carouselContainer">
         <Carousel
@@ -132,6 +132,26 @@ const Skills = () => (
           ))}
         </Carousel>
       </div>
+    </div> */}
+    <div className="waves-container">
+      <svg
+        className="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shapeRendering="auto"
+      >
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g className="parallax">
+          <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlinkHref="#gentle-wave" x="48" y="7" fill="#0693e3" className="myBtn" />
+        </g>
+      </svg>
     </div>
   </>
 );
