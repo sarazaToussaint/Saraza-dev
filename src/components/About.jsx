@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-overlays/Modal';
 import data from './database/data.json';
-import Skills from './Skills';
+// import Skills from './Skills';
 import styles from './About.module.css';
 
 const About = () => {
@@ -72,7 +72,7 @@ const About = () => {
                   <a href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit" target="_blank" rel="noreferrer">Check my Resume</a>
                 </div>
               </div>
-              <Skills />
+              {/* <Skills /> */}
             </div>
           </div>
         </Modal>
