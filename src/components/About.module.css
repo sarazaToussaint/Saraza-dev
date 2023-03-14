@@ -203,3 +203,10 @@
     transform: translateX(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .skills .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
