@@ -1,77 +1,3 @@
-.modal {
-  position: fixed;
-  width: 65%;
-  top: 15%;
-  left: 17%;
-  overflow-y: auto;
-  z-index: 1040;
-  background-color: #1a1e23;
-  color: #e9ecef;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-.backdrop {
-  position: fixed;
-  z-index: 1040;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgb(9, 23, 38);
-  opacity: 0.5;
-}
-
-.modalTitle {
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
-.modalHeader {
-  border-bottom: #007bff 1px dashed;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.modalDesc {
-  padding: 36px;
-  height: 60vh;
-  overflow-y: auto;
-  color: #fff;
-}
-
-.closeButton {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1;
-  color: #fff;
-  border: none;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-.secondaryButton {
-  color: #fff;
-  background-color: #6c757d;
-}
-
-.primaryButton {
-  color: #fff;
-  background-color: #007bff;
-}
-
-.modalExample {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/* Languages */
-
 .logo {
   width: 50px;
   height: 50px;
@@ -151,13 +77,13 @@
   border-radius: 50%;
 }
 
-.resume a {
+/* .resume a {
   text-decoration: none;
   border-bottom: #007bff 3px dashed;
   color: #fff;
   font-size: 20px;
   font-weight: 300;
-}
+} */
 
 @keyframes slideInFromLeft {
   0% {
