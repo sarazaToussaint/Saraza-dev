@@ -19,13 +19,13 @@ const About = () => (
             {data.data.developer}
             {' '}
           </span>
-          a self-motivated and goal orientated individual with a degree
+          a self-motivated and goal oriented individual with a degree
           in Computer Science from Kigali Independent University.
-          I have worked on a variety of fullstack projects when studied at Microverse and
+          I have worked on a variety of fullstack projects when I studied at Microverse and I am
           now open to fulltime opportunities. I have a demonstrated history
           of both leading and working in teams, along with good time management skills.
         </p>
-        <button type="button" className="btn myBtn btn-primary">See my resume</button>
+        <a href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit" target="_blank" rel="noreferrer" className="btn myBtn btn-primary">See my resume</a>
       </div>
     </section>
     <div className="waves-container">
