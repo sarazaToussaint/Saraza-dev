@@ -29,7 +29,7 @@ const About = () => (
           href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit"
           target="_blank"
           rel="noreferrer"
-          className="btn myBtn btn-primary"
+          className="btn myBtn primary"
         >
           See my resume
         </a>
