@@ -91,7 +91,7 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 30px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 10px;
