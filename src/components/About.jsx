@@ -25,7 +25,14 @@ const About = () => (
           now open to fulltime opportunities. I have a demonstrated history
           of both leading and working in teams, along with good time management skills.
         </p>
-        <a href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit" target="_blank" rel="noreferrer" className="btn myBtn btn-primary">See my resume</a>
+        <a
+          href="https://docs.google.com/document/d/1Gz_HMGGmernqwVFcTqWqM7A8Fy9NqvI6YBc1dQSPPWI/edit"
+          target="_blank"
+          rel="noreferrer"
+          className="btn myBtn btn-primary"
+        >
+          See my resume
+        </a>
       </div>
     </section>
     <div className="waves-container">
