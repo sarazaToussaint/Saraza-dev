@@ -14,7 +14,7 @@ const Skills = () => (
           <h6>HTML5</h6>
         </div>
         <div className={styles.card}>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />
+          <img className={styles.logo} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />
           <h6>CSS3</h6>
         </div>
         <div className={styles.card}>
