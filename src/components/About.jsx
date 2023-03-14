@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react';
 import data from './database/data.json';
-// import styles from './About.module.css';
 
 const About = () => (
   <>
