@@ -4,7 +4,7 @@ import data from './database/data.json';
 
 const About = () => (
   <>
-    <section className="about-container bubbles">
+    <section className="about-container">
       <div className="photo">
         <img className="dev-img" src={data.data.devPhoto} alt={data.data.developer} />
       </div>
