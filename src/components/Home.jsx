@@ -17,7 +17,7 @@ const Home = () => (
         I have worked on a variety of fullstack projects when I studied at Microverse and am
         now open to fulltime opportunities. I have a demonstrated history
         of both leading and working in teams, along with good time management
-        skills. I enjoy learning new skills and am constantly expanding my
+        skills. I enjoy learning new skills and am constant expanding my
         current skill set.
       </p>
       <div className="icon-container">
