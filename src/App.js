@@ -1,3 +1,4 @@
+import ReactGA from 'react-ga';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import NavaBar from './components/NavaBar';
@@ -6,6 +7,9 @@ import Skills from './components/Skills';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Project from './components/Project';
+
+ReactGA.initialize('G-WKS67FBF3C');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
