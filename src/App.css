@@ -341,11 +341,11 @@ button {
 }
 
 @keyframes myanimation {
-  0% { color: #0693e3; }
-  25% { color: #f1c40f; }
-  50% { color: #8e44ad; }
-  75% { color: #16a085; }
-  100% { color: #2ecc71; }
+  0% { color: #0092cc; }
+  25% { color: #5c7829; }
+  50% { color: #dcd427; }
+  75% { color: #a12c2c; }
+  100% { color: #107d3e; }
 }
 
 .myBtn {
@@ -353,11 +353,11 @@ button {
 }
 
 @keyframes myAnimation {
-  0% { background-color: #0693e3; }
-  25% { background-color: #f1c40f; }
-  50% { background-color: #8e44ad; }
-  75% { background-color: #16a085; }
-  100% { background-color: #2ecc71; }
+  0% { background-color: #0092cc; }
+  25% { background-color: #5c7829; }
+  50% { background-color: #dcd427; }
+  75% { background-color: #a12c2c; }
+  100% { background-color: #107d3e; }
 }
 
 @media screen and (max-width: 768px) {
