@@ -31,6 +31,47 @@
     "projects": [
       {
         "id": 1,
+        "name": "Foot-Championship",
+        "image": "./assets/foot.png",
+        "spans": [
+          {
+            "id": 1,
+            "span": "Microverse"
+          },
+          {
+            "id": 2,
+            "span": "Front-End-App"
+          },
+          {
+            "id": 3,
+            "span": "July-2022"
+          }
+        ],
+        "tools": [
+            {
+              "id": 1,
+              "lang": "React"
+            },
+            {
+              "id": 2,
+              "lang": "Redux"
+            },
+          
+            {
+              "id": 3,
+              "lang": "API"
+            },
+            {
+              "id": 4,
+              "lang": "Jest"
+            }
+        ],
+        "description": "Foot Championships is a mobile friendly webApp that provides leagues standing from the most watched leagues around the world using the Azharimm API.",
+        "sourceLink": "https://github.com/sarazaToussaint/Foot-Championships",
+        "liveLink": "https://statuesque-eclair-b5caa9.netlify.app/"
+      },
+      {
+        "id": 2,
         "name": "Luxy Rides",
         "image": "./assets/LuxyCar.png",
         "spans": [
@@ -71,8 +112,9 @@
         "liveLink": "https://luxy-ride-frontend.vercel.app/"
       },
 
+
       {
-        "id": 2,
+        "id": 3,
         "name": "Budgetify",
         "image": "./assets/BudgetApp.png",
         "spans": [
@@ -113,7 +155,7 @@
       },
 
       {
-        "id": 3,
+        "id": 4,
         "name": "Space Travelers Hub",
         "image": "./assets/space.png",
         "spans": [
@@ -154,7 +196,7 @@
       },
 
       {
-        "id": 4,
+        "id": 5,
         "name": "Book Store",
         "image": "./assets/Bookstore.png",
         "spans": [
@@ -195,7 +237,7 @@
       },
 
       {
-        "id": 5,
+        "id": 6,
         "name": "Grill Restaurant",
         "image": "./assets/restaurant.png",
         "spans": [
@@ -233,7 +275,7 @@
       },
 
       {
-        "id": 6,
+        "id": 7,
         "name": "Today's to do",
         "image": "./assets/todays.png",
         "spans": [
